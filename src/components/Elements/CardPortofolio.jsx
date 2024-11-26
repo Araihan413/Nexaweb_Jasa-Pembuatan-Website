@@ -5,7 +5,7 @@ const CardPortofolio = () => {
   return (
     <>
       <div className=" max-w-80 rounded-xl overflow-hidden shadow-lg">
-        <figure className="w-full h-52 overflow-hidden relative">
+        <figure className="w-full h-full overflow-hidden relative">
           <div className=" hover:scale-110 hover:blur-sm transition-all">
             <img src={porto1} alt="portofolio 1" />
           </div>
