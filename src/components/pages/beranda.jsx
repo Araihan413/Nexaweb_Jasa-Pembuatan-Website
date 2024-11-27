@@ -35,7 +35,7 @@ const Beranda = () => {
       <section className="px-24 py-16">
         <Contact></Contact>
       </section>
-      <section className="px-24 py-16 bg-slate-700 bg-tulisan-nexaweb">
+      <section className="px-24 pt-16 pb-8 bg-slate-700 bg-tulisan-nexaweb">
         <Footer></Footer>
       </section>
     </>
