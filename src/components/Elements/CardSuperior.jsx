@@ -32,13 +32,13 @@ const CardSuperior = () => {
   ]);
   return (
     <>
-      <div className="flex gap-8 justify-center">
+      <div className="flex flex-wrap md:flex-nowrap gap-4 md:gap-8 justify-center">
         {dataCard &&
           dataCard.map((item, index) => {
             return (
-              <div className="flex flex-col w-1/4 max-w-[540px] p-4 rounded-lg bg-[#FFDDAE] shadow-lg border-2" key={index + 1}>
+              <div className="flex flex-col w-full md:w-1/4 max-w-[540px] p-4 rounded-lg bg-[#FFDDAE] shadow-lg border-2" key={index + 1}>
                 <img className="w-20 h-20 mb-3" src={item.src} alt={item.alt} />
-                <h2 className="font-semibold font-subJudul leading-5 text-lg pb-2">{item.judul}</h2>
+                <h2 className="md:font-semibold font-bold font-subJudul leading-5 text-xl md:text-lg pb-2">{item.judul}</h2>
                 <p className="font-paragraf font-medium">{item.children}</p>
               </div>
             );

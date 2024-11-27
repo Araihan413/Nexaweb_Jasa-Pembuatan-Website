@@ -9,7 +9,7 @@ const Question = () => {
         <div className="text-center pb-20">
           <h1 className="font-judul text-4xl font-semibold">Pertanyaan yang Sering Diajukan</h1>
         </div>
-        <div className="w-3/4">
+        <div className="lg:w-5/6 w-11/12">
           <div className="pb-4 border-b-2">
             <div className=" pt-4 pb-2 flex items-start justify-between cursor-pointer">
               <div className="flex items-start">

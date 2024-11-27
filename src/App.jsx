@@ -4,7 +4,7 @@ import Beranda from './components/pages/beranda';
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="">
         <header>
           <NavbarTop />
         </header>

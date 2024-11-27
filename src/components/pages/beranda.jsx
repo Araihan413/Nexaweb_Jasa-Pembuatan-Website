@@ -11,28 +11,28 @@ import Footer from '../Fragments/Footer';
 const Beranda = () => {
   return (
     <>
-      <section className="pt-24 px-24">
+      <section className="pt-12 px-5 md:pt-24 md:px-24">
         <Heading></Heading>
       </section>
-      <section className="px-24 py-16 ">
+      <section className="px-5 md:px-24 py-16 ">
         <About></About>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <Service></Service>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <ProcessOrder></ProcessOrder>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <Portofolio></Portofolio>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <Testimony></Testimony>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <Question></Question>
       </section>
-      <section className="px-24 py-16">
+      <section className="px-5 md:px-24 py-16">
         <Contact></Contact>
       </section>
       <section className="px-24 pt-16 pb-8 bg-slate-700 bg-tulisan-nexaweb">

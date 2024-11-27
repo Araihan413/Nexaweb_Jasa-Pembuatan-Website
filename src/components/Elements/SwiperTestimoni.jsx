@@ -11,7 +11,7 @@ const SwiperTestimoni = () => {
     <>
       <Swiper
         breakpoints={{
-          640: {
+          150: {
             slidesPerView: 1,
             spaceBetween: 10,
           },

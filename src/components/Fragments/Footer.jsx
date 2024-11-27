@@ -15,7 +15,7 @@ const Footer = () => {
             <h1 className="text-2xl font-SubJudul font-bold text-white">Nexaweb</h1>
           </div>
           <div className="text-white pb-8">
-            <h1 className="font-SubJudul font-bold pb-2">Tentang Kami</h1>
+            <h1 className="font-SubJudul font-semibold text-xl pb-4">Tentang Kami</h1>
             <p className="font-Paragraf">
               "Nexaweb adalah penyedia jasa pembuatan website profesional yang berkomitmen untuk menghadirkan solusi digital terbaik. Kami percaya bahwa setiap website harus menjadi representasi unik dari brand atau ide Anda."
             </p>
@@ -24,7 +24,7 @@ const Footer = () => {
             <WindowMap></WindowMap>
           </div>
           <div>
-            <h1 className="font-SubJudul font-semibold text-lg pb-4">Wilayah Yogyakarta</h1>
+            <h1 className="font-SubJudul font-semibold text-xl pb-4">Wilayah Yogyakarta</h1>
             <div className="flex gap-4">
               <div className="w-12 pt-1">
                 <GrMap></GrMap>
@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div className="col-span-1 flex flex-col items-start pl-8">
           <div className="pb-8">
-            <h1 className="font-SubJudul font-semibold text-lg pb-4">Navigasi Menu</h1>
+            <h1 className="font-SubJudul font-semibold text-xl pb-4">Navigasi Menu</h1>
             <ul className="font-Paragraf">
               <li>
                 <a className="flex gap-2 leading-none p-2 pl-0" href="">
@@ -108,42 +108,42 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <h3 className="font-semibold">
                 <a href="">
-                  <p className="font-Paragraf flex gap-2">
-                    <div className="text-2xl">
+                  <div className="font-Paragraf flex gap-2">
+                    <p className="text-2xl">
                       <FaLinkedin />
-                    </div>
+                    </p>
                     Linkin
-                  </p>
+                  </div>
                 </a>
               </h3>
               <h3 className="font-semibold">
                 <a href="">
-                  <p className="font-Paragraf flex gap-2">
-                    <div className="text-2xl">
+                  <div className="font-Paragraf flex gap-2">
+                    <p className="text-2xl">
                       <FaInstagramSquare />
-                    </div>
+                    </p>
                     Instagram
-                  </p>
+                  </div>
                 </a>
               </h3>
               <h3 className="font-semibold">
                 <a href="">
-                  <p className="font-Paragraf flex gap-2">
-                    <div className="text-2xl">
+                  <div className="font-Paragraf flex gap-2">
+                    <p className="text-2xl">
                       <FaFacebook />
-                    </div>
+                    </p>
                     Facebook
-                  </p>
+                  </div>
                 </a>
               </h3>
               <h3 className="font-semibold">
                 <a href="">
-                  <p className="font-Paragraf flex gap-2">
-                    <div className="text-2xl">
+                  <div className="font-Paragraf flex gap-2">
+                    <p className="text-2xl">
                       <AiFillTikTok />
-                    </div>
+                    </p>
                     Tiktok
-                  </p>
+                  </div>
                 </a>
               </h3>
             </div>
