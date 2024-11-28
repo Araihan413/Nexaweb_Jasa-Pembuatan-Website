@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="w-full justify-center items-end grid lg:grid-cols-2 grid-cols-1 py-5 gap-10 lg:gap-0">
           <div className="w-full flex justify-center">
             <div className="bg-slate-100 rounded-xl col-span-1 w-11/12 shadow-lg max-w-[700px]">
-              <form action="" className="grid grid-cols-2 p-2 pt-5">
+              <form action="" className="grid grid-cols-1 md:grid-cols-2 p-2 pt-5">
                 <FormContact id="nama" type="text" placeholder="Nama Lengkap" style="col-span-1">
                   Nama Lengkap
                 </FormContact>
@@ -26,11 +26,11 @@ const Contact = () => {
                   Email
                 </FormContact>
 
-                <FormContact id="subjek" type="text" placeholder="Subjek" style="col-span-2">
+                <FormContact id="subjek" type="text" placeholder="Subjek" style="col-span-1 md:col-span-2">
                   Subjek
                 </FormContact>
 
-                <FormTextarea id="Pesan" placeholder="Pesan Anda" style="col-span-2">
+                <FormTextarea id="Pesan" placeholder="Pesan Anda" style="col-span-1 md:col-span-2">
                   Pesan
                 </FormTextarea>
               </form>

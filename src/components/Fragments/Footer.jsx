@@ -8,7 +8,7 @@ import { AiFillTikTok } from 'react-icons/ai';
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-3 text-white">
+      <div className="grid grid-cols-1 md:grid-cols-3 text-white">
         <div className="col-span-1 flex flex-col items-start pr-8">
           <div className="flex gap-5 items-end pb-4">
             <Logo></Logo>
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-1 flex flex-col items-start pl-8">
+        <div className="col-span-1 flex flex-col items-start pt-8 md:pt-0 md:pl-8">
           <div className="pb-8">
             <h1 className="font-SubJudul font-semibold text-xl pb-4">Navigasi Menu</h1>
             <ul className="font-Paragraf">
@@ -102,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-1 flex flex-col items-start pl-8">
+        <div className="col-span-1 flex flex-col items-start pt-8 md:pt-0 md:pl-8">
           <div className="pb-8">
             <h1 className="font-SubJudul text-xl font-semibold pb-4">Ikuti Kami</h1>
             <div className="flex flex-col gap-4">
@@ -171,7 +171,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-3 pt-5 mt-8 border-t-2">
+        <div className="col col-span-1 md:col-span-3 pt-5 mt-8 border-t-2">
           <p className="font-Paragraf flex items-center justify-center leading-none gap-2">
             Copyright <FaRegCopyright /> 2022 Nexaweb. All rights reserved.
           </p>
