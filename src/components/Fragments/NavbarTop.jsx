@@ -24,7 +24,7 @@ const NavbarTop = () => {
           <Logo />
         </div>
         <div className="w-full flex justify-end lg:justify-center lg:items-center relative">
-          <ul className="navbar hidden lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static flex-col lg:flex-row lg:justify-center items-center py-20 gap-6 lg:px-5 lg:p-3 lg:rounded-full bg-slate-400 text-4xl lg:text-xl font-normal font-subJudul shadow-xl text-white">
+          <ul className="navbar hidden lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static flex-col lg:flex-row lg:justify-center items-center py-20 gap-6 lg:px-5 lg:p-3 lg:rounded-full bg-gradient-primer text-4xl lg:text-xl font-normal font-subJudul shadow-xl text-white">
             <li>
               <a href="">Beranda</a>
             </li>

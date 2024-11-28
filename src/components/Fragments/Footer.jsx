@@ -20,7 +20,7 @@ const Footer = () => {
               "Nexaweb adalah penyedia jasa pembuatan website profesional yang berkomitmen untuk menghadirkan solusi digital terbaik. Kami percaya bahwa setiap website harus menjadi representasi unik dari brand atau ide Anda."
             </p>
           </div>
-          <div className="pb-8">
+          <div className=" mb-8 h-52 w-full">
             <WindowMap></WindowMap>
           </div>
           <div>

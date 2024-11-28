@@ -6,7 +6,7 @@ const CardPrice = () => {
   const [fitur, setFitur] = useState(['5 Halaman', '5 Hari Pengerjaan', '1x Revisi', '1 SEO Keyword', '5 page SEO Dasar', '10 Upload Setup Gambar', '+3 Akun Email', 'GRATIS! SSL', 'GRATIS! DOMAIN .COM/CO.ID', 'Mobile Friendly']);
   return (
     <>
-      <div className="bg-[#D4F6FF] flex flex-col justify-center items-center rounded-lg p-5 min-w-72 w-3/4 lg:w-80 lg:max-w-96 shadow-lg">
+      <div className="bg-gradient-top border-2 border-blue-300 flex flex-col justify-center items-center rounded-lg p-5 min-w-72 w-3/4 lg:w-80 lg:max-w-96 shadow-lg">
         <div className="text-center pb-4">
           <h2 className="font-semibold text-xl font-subJudul">Paket Sultan</h2>
           <h1 className="font-semibold text-4xl font-subJudu relative -mr-6 before:content-['Rp.'] before:absolute before:top-0 before:-left-6 before:text-base after:content-['/thn'] after:text-base after:text-[#1978d4]">5.000.000</h1>

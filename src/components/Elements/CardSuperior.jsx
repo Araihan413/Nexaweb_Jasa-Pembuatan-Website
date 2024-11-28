@@ -36,7 +36,7 @@ const CardSuperior = () => {
         {dataCard &&
           dataCard.map((item, index) => {
             return (
-              <div className="lg:col-span-1 flex flex-col h-full w-full max-w-[540px] p-4 rounded-lg bg-[#FFDDAE] shadow-lg border-2" key={index + 1}>
+              <div className="lg:col-span-1 flex flex-col h-full w-full max-w-[540px] p-4 rounded-lg bg-slate-100 shadow-lg border-2" key={index + 1}>
                 <img className="w-20 h-20 mb-3" src={item.src} alt={item.alt} />
                 <h2 className="md:font-semibold font-bold font-subJudul leading-5 text-xl md:text-lg pb-2">{item.judul}</h2>
                 <p className="font-paragraf font-medium">{item.children}</p>
