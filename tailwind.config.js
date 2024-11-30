@@ -17,7 +17,6 @@ export default {
     backgroundImage: {
       "gradient-primer": "linear-gradient(to right, #40c9ff, #e81cff)",
       "gradient-sekunder": "linear-gradient(to right, #00ff87, #60efff)",
-      // "gradient-tersier": "linear-gradient(to right, #ff00ff, #ff00ff)"
       "gradient-top": "linear-gradient(to top, #dbeafe, #f1f5f9)"
     }
   },
