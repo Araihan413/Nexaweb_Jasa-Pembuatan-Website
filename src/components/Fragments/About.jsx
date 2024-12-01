@@ -9,7 +9,7 @@ const About = () => {
       <div>
         <div className="flex flex-col  gap-10 md:gap-0 lg:flex-row justify-between items-center relative mb-20 md:mb-36">
           <div>
-            <motion.h1 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }} initial={{ opacity: 0, y: 100 }} s className="text-4xl font-judul font-semibold mb-8">
+            <motion.h1 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }} initial={{ opacity: 0, y: 100 }} className="text-4xl font-judul font-semibold mb-8">
               Mengapa Memilih Nexaweb?
             </motion.h1>
             <motion.p whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.3 } }} initial={{ opacity: 0, y: 100 }} className="md:w-1/2 font-paragraf">
@@ -23,7 +23,9 @@ const About = () => {
           </figure>
         </div>
         <div className="md:pt-20 lg:pt-0">
-          <h3 className="text-center font-judul font-semibold text-4xl mb-8">Keunggulan Menggunakan Jasa Nexaweb</h3>
+          <motion.h3 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }} initial={{ opacity: 0, y: 100 }} className="text-center font-judul font-semibold text-4xl mb-8">
+            Keunggulan Menggunakan Jasa Nexaweb
+          </motion.h3>
           <CardSuperior></CardSuperior>
         </div>
       </div>

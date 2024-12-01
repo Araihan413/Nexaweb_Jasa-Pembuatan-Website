@@ -6,7 +6,7 @@ const Heading = () => {
     <>
       <div className="flex flex-col justify-center items-center gap-8 md:h-full h-screen lg:h-screen w-full">
         <article className="flex flex-col justify-center items-center text-center">
-          <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 3 }} className="mb-8 bg-gradient-primer bg-clip-text text-transparent">
+          <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 2.5, delay: 0.7 }} className="mb-8 bg-gradient-primer bg-clip-text text-transparent">
             <h1 className="font-judul font-bold text-5xl py-2">Bangun Website Impian Anda Bersama Nexweb</h1>
           </motion.div>
 

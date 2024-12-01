@@ -7,6 +7,7 @@ import Testimony from '../Fragments/Testimony';
 import Question from '../Fragments/Question';
 import Contact from '../Fragments/Contact';
 import Footer from '../Fragments/Footer';
+import { motion } from 'framer-motion';
 
 const Beranda = () => {
   return (
@@ -39,6 +40,7 @@ const Beranda = () => {
         <section className="px-5 md:px-10 lg:px-24 pt-16 pb-8 bg-slate-700 bg-tulisan-nexaweb">
           <Footer></Footer>
         </section>
+        <motion.circle cx="100" cy="300" r="80" stroke="#0099ff" variants={draw} custom={2} />
       </div>
     </>
   );
