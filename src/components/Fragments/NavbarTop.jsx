@@ -1,20 +1,19 @@
 import Logo from '../Elements/Logo';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { NavLink } from 'react-router-dom';
 
 const NavbarTop = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const ToggleNavbar = () => {
-    const navbar = document.querySelector('.navbar');
-    if (isOpen) {
-      navbar.classList.toggle('hidden');
-      navbar.classList.toggle('flex');
-      setIsOpen(!isOpen);
-    } else {
-      navbar.classList.toggle('hidden');
-      navbar.classList.toggle('flex');
-      setIsOpen(!isOpen);
-    }
+  const [showElemen, setShowElemen] = useState(window.innerWidth >= 1024);
+
+  const handleDelete = () => {
+    setShowElemen(!showElemen);
+  };
+
+  const toggle = {
+    hidden: { opacity: 0, scale: 0.4, transition: { duration: 0.3 } },
+    show: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
   };
 
   return (
@@ -24,30 +23,53 @@ const NavbarTop = () => {
           <Logo />
         </div>
         <div className="w-full flex justify-end lg:justify-center lg:items-center relative">
-          <ul className="navbar hidden lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static flex-col lg:flex-row lg:justify-center items-center py-20 gap-6 lg:px-5 lg:p-3 lg:rounded-full bg-gradient-primer text-4xl lg:text-xl font-normal font-subJudul shadow-xl text-white">
-            <li>
-              <a href="">Beranda</a>
-            </li>
-            <li>
-              <a href="">Layanan</a>
-            </li>
-            <li>
-              <a href="">Cara Order</a>
-            </li>
-            <li>
-              <a href="">Portofolio</a>
-            </li>
-            <li>
-              <a href="">Kontak</a>
-            </li>
-            <li>
-              <a href="">Blog</a>
-            </li>
-          </ul>
+          <AnimatePresence>
+            {showElemen && (
+              <motion.div
+                variants={toggle}
+                initial={window.innerWidth >= 1024 ? '' : 'hidden'}
+                animate={window.innerWidth >= 1024 ? '' : 'show'}
+                exit={{ opacity: 0, scale: 0.4, transition: { duration: 0.3 } }}
+                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-5 lg:p-3 lg:rounded-full bg-gradient-primer  shadow-xl text-white">
+                <ul className="h-full w-full  flex-col lg:flex-row flex  justify-center items-center gap-6 text-4xl lg:text-xl font-normal font-subJudul  text-white">
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/">
+                      Beranda
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/layanan">
+                      Layanan
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/cara order">
+                      Cara Order
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/portofolio">
+                      Portofolio
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/contact">
+                      Kontak
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/blog">
+                      Blog
+                    </NavLink>
+                  </li>
+                </ul>
+              </motion.div>
+            )}
+          </AnimatePresence>
           <div className="text-4xl lg:hidden p-1 pr-5 lg:pr-0 ">
             <button
               onClick={() => {
-                ToggleNavbar();
+                handleDelete();
               }}>
               <HiMenuAlt3 />
             </button>

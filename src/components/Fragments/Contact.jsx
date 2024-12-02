@@ -1,13 +1,18 @@
 import contactMobile from '../../assets/contact_mobile.svg';
 import { FormContact, FormTextarea } from '../Elements/FormContact';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
+  const inView = {
+    view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 100 },
+  };
   return (
     <>
       <div>
-        <div className="text-center pb-8">
+        <motion.div variants={inView} whileInView="view" initial="hidden" className="text-center pb-8">
           <h1 className="font-judul text-4xl font-semibold">Hubungi Kami</h1>
-        </div>
+        </motion.div>
         <div className="w-full justify-center items-end grid lg:grid-cols-2 grid-cols-1 py-5 gap-10 lg:gap-0">
           <div className="w-full flex justify-center">
             <div className="bg-slate-100 rounded-xl col-span-1 w-11/12 shadow-lg max-w-[700px]">
@@ -37,9 +42,9 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full flex justify-center">
-            <div className="col-span-1 w-11/12 px-4 pt-4 max-w-[650px] drop-shadow-[0_25px_25px_rgba(0,245,204,0.15)]">
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 2 } }} className="col-span-1 w-11/12 px-4 pt-4 max-w-[650px] drop-shadow-[0_25px_25px_rgba(0,245,204,0.15)]">
               <img className="w-full" src={contactMobile} alt="gambah contact mobile" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

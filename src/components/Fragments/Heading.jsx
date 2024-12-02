@@ -17,7 +17,7 @@ const Heading = () => {
             Kami menyediakan layanan pembuatan website modern, responsif, dan berkualitas tinggi untuk mendukung kesuksesan online Anda. Dari toko online hingga portofolio pribadi, Nexaweb siap membantu Anda.
           </motion.p>
         </article>
-        <di className="flex gap-8">
+        <div className="flex gap-8">
           <motion.div whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: -100 }}>
             <Button warna="bg-gradient-sekunder" style="text-[#474747]">
               Pesan Sekarang
@@ -28,7 +28,7 @@ const Heading = () => {
               Lihat Portofolio
             </Button>
           </motion.div>
-        </di>
+        </div>
       </div>
     </>
   );

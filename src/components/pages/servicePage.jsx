@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import NavbarTop from '../Fragments/NavbarTop';
 
-const PortofolioPage = () => {
+const ServicePage = () => {
   return (
     <>
       <div>
@@ -14,4 +14,4 @@ const PortofolioPage = () => {
   );
 };
 
-export default PortofolioPage;
+export default ServicePage;
