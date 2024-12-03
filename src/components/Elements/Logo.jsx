@@ -1,4 +1,4 @@
-import imgLogo from '../../assets/logo_AR.png';
+import imgLogo from '../../assets/logo/nexawebLogo.png';
 const Logo = () => {
   return (
     <>

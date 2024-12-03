@@ -4,7 +4,7 @@ import Button from '../Elements/Button';
 const CardPortofolio = () => {
   return (
     <>
-      <div className=" max-w-80 rounded-xl overflow-hidden shadow-lg">
+      <div className=" max-w-80 rounded-xl overflow-hidden shadow-lg bg-white">
         <figure className="w-full h-full overflow-hidden relative">
           <div className=" hover:scale-110 hover:blur-sm transition-all">
             <img src={porto1} alt="portofolio 1" />

@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="w-full overflow-x-hidden">
         <RouterProvider router={router} />
         <motion.div style={{ scaleX }} className="z-50 bottom-0 left-0 right-0 fixed w-full h-2 bg-gradient-primer origin-bottom-left"></motion.div>
       </div>

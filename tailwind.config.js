@@ -16,8 +16,11 @@ export default {
     },
     backgroundImage: {
       "gradient-primer": "linear-gradient(to right, #40c9ff, #e81cff)",
-      "gradient-sekunder": "linear-gradient(to right, #00ff87, #60efff)",
-      "gradient-top": "linear-gradient(to top, #dbeafe, #f1f5f9)"
+      "gradient-sekunder": "linear-gradient(to right, rgba(0, 255, 135, 1), rgba(96, 239, 255, 1))",
+      "gradient-bubble1": "linear-gradient(to right, rgba(0, 255, 135, 0.5), rgba(96, 239, 255, 0.5))",
+      "gradient-bubble2": "linear-gradient(to right, #b597f6, #96c6ea)",
+      "gradient-top": "linear-gradient(to top, #dbeafe, #f1f5f9)",
+      "kotak-kotak": "url('./src/assets/background/mee.svg')",
     }
   },
   plugins: [],
