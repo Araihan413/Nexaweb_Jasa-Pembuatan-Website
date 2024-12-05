@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 
 const CardPrice = () => {
   const inView = {
-    view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, y: 100 },
+    view: { opacity: 1, transition: { duration: 0.8 } },
+    hidden: { opacity: 0 },
   };
   const [fitur, setFitur] = useState(['5 Halaman', '5 Hari Pengerjaan', '1x Revisi', '1 SEO Keyword', '5 page SEO Dasar', '10 Upload Setup Gambar', '+3 Akun Email', 'GRATIS! SSL', 'GRATIS! DOMAIN .COM/CO.ID', 'Mobile Friendly']);
   return (
