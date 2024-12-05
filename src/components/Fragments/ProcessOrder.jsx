@@ -10,25 +10,25 @@ const ProcessOrder = () => {
 
   const [steps, setSteps] = useState([
     {
-      id: 1,
+      id: '1',
       title: 'Konsultasi Awal',
       titleDescription: 'Diskusikan Kebutuhan Anda',
       description: 'Ceritakan tujuan, fitur yang diinginkan, dan gaya desain yang sesuai dengan brand Anda.',
     },
     {
-      id: 2,
+      id: '2',
       title: 'Penawaran dan Kesepakatan',
       titleDescription: 'Pilih Paket dan Mulai Proyek',
       description: 'Kami akan memberikan penawaran yang mencakup detail layanan, waktu pengerjaan, dan harga. Setelah disepakati, lakukan pembayaran awal untuk memulai proyek.',
     },
     {
-      id: 3,
+      id: '3',
       title: 'Desain dan Pengembangan',
       titleDescription: 'Website Dibangun Sesuai Kebutuhan',
       description: 'Tim kami akan membuat desain awal "mockup" untuk persetujuan Anda, lalu mengembangkan website dengan fitur dan fungsi yang lengkap.',
     },
     {
-      id: 4,
+      id: '4',
       title: 'Revisi dan Pengujian',
       titleDescription: 'Pastikan Website Sempurna',
       description: 'Anda dapat memberikan masukan untuk revisi. Kami juga melakukan pengujian untuk memastikan semua fitur berfungsi dengan baik.',
@@ -53,9 +53,9 @@ const ProcessOrder = () => {
         </div>
         <article className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
           <LineProcessStart></LineProcessStart>
-          {steps.map((step) => (
-            <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} />
-          ))}
+          {steps.map((step) => {
+            return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} />;
+          })}
           <LineProcessEnd></LineProcessEnd>
         </article>
       </div>
