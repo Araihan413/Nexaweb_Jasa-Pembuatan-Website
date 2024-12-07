@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { LineProcess, LineProcessStart, LineProcessEnd } from '../Elements/LineProcess';
-import { useState } from 'react';
 
 const ProcessOrder = () => {
   const inView = {
@@ -8,7 +7,7 @@ const ProcessOrder = () => {
     hidden: { opacity: 0, y: 100 },
   };
 
-  const [steps, setSteps] = useState([
+  const steps = [
     {
       id: '1',
       title: 'Konsultasi Awal',
@@ -39,7 +38,7 @@ const ProcessOrder = () => {
       titleDescription: 'Online dan Siap Digunakan',
       description: 'Kami membantu mengunggah website Anda ke domain dan hosting. Website Anda kini siap digunakan, dan kami menyediakan dukungan teknis pasca peluncuran.',
     },
-  ]);
+  ];
   return (
     <>
       <div>
@@ -54,7 +53,7 @@ const ProcessOrder = () => {
         <article className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
           <LineProcessStart></LineProcessStart>
           {steps.map((step) => {
-            return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} />;
+            return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} style="max-w-96" />;
           })}
           <LineProcessEnd></LineProcessEnd>
         </article>

@@ -18,9 +18,9 @@ const CardSuperior = () => {
     },
     {
       src: customerService,
-      alt: 'Support Pelanggan 24/7',
-      judul: 'Support Pelanggan 24/7',
-      children: 'Kami selalu siap membantu Anda kapan saja. Baik itu masalah teknis atau pertanyaan terkait fitur, tim kami tersedia 24 jam untuk memberikan solusi cepat dan efektif.',
+      alt: 'Support Pelanggan',
+      judul: 'Support Pelanggan',
+      children: 'Kami selalu siap membantu Anda kapan saja. Baik itu masalah teknis atau pertanyaan terkait fitur, kami tersedia untuk memberikan solusi cepat dan efektif.',
     },
     {
       src: bestPrice,

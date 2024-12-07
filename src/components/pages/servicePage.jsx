@@ -9,6 +9,7 @@ import manageContent from '../../assets/icons/manage-content.png';
 import security from '../../assets/icons/web-security.png';
 import OfferServices from '../Elements/OfferServices';
 import webBisnis from '../../assets/image/web-bisnis.png';
+import Footer from '../Fragments/Footer';
 
 const ServicePage = () => {
   const offerServices = [
@@ -51,11 +52,11 @@ const ServicePage = () => {
   ];
   return (
     <>
-      <div className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
+      <div>
         <header>
           <NavbarTop />
         </header>
-        <main className="">
+        <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
           <section className="pb-20">
             <div className="w-7/12">
               <h1 className="font-judul text-6xl font-bold leading-tight">Pelayanan Jasa Pembuatan Website di Nexaweb</h1>
@@ -80,15 +81,37 @@ const ServicePage = () => {
             <div className="pb-8">
               <h1 className="font-judul text-4xl font-semibold">Jenis Website yang Kami Sediakan</h1>
             </div>
-            <div>
-              {/* -translate-y-10 -translate-x-8 */}
-              <div className="flex border-2 shadow-lg rounded-2xl pl-40 w-5/6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-64 -z-10  bg-gradient-transparant">
-                  <img className="bg-gradient-transparant bg-red-300" src={webBisnis} alt="foto design web bisnis" />
+            <div className="flex flex-wrap gap-2">
+              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
+                <div className="top-0 left-0 w-80 -z-10">
+                  <img className="" src={webBisnis} alt="foto design web bisnis" />
                 </div>
-                <div className="p-4">
-                  <h1 className="font-judul text-xl font-semibold pb-2">Website Bisnis</h1>
-                  <p className="font-paragraf">Bangun kepercayaan dengan website profesional yang menunjukkan identitas dan layanan bisnis Anda.</p>
+                <div className="absolute w-full h-full flex justify-center items-end pb-8 bg-gradient-transparant">
+                  <h1 className="font-judul text-2xl font-semibold text-[#229989]">Website Bisnis</h1>
+                </div>
+              </div>
+              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
+                <div className="top-0 left-0 w-80 -z-10">
+                  <img className="" src={webBisnis} alt="foto design web bisnis" />
+                </div>
+                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
+                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Website Portofolio</h1>
+                </div>
+              </div>
+              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
+                <div className="top-0 left-0 w-80 -z-10">
+                  <img className="" src={webBisnis} alt="foto design web bisnis" />
+                </div>
+                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
+                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Website Blog Personal</h1>
+                </div>
+              </div>
+              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
+                <div className="top-0 left-0 w-80 -z-10">
+                  <img className="" src={webBisnis} alt="foto design web bisnis" />
+                </div>
+                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
+                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Custom Website</h1>
                 </div>
               </div>
             </div>
@@ -97,6 +120,9 @@ const ServicePage = () => {
             <Service />
           </section>
         </main>
+        <section className="px-5 md:px-10 lg:px-24 pt-16 pb-8 bg-slate-700">
+          <Footer></Footer>
+        </section>
       </div>
     </>
   );
