@@ -48,11 +48,6 @@ const NavbarTop = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/portofolio">
-                      Portofolio
-                    </NavLink>
-                  </li>
-                  <li>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/contact">
                       Kontak
                     </NavLink>

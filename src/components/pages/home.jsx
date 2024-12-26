@@ -5,7 +5,6 @@ import ProcessOrder from '../Fragments/ProcessOrder';
 import Portofolio from '../Fragments/Portofolio';
 import Testimony from '../Fragments/Testimony';
 import Question from '../Fragments/Question';
-// import Contact from '../Fragments/Contact';
 import Footer from '../Fragments/Footer';
 import { motion } from 'framer-motion';
 import NavbarTop from '../Fragments/NavbarTop';
@@ -43,9 +42,6 @@ const Home = () => {
           <section className="px-5 md:px-14 lg:px-24 py-16 bg-kotak-kotak">
             <Question></Question>
           </section>
-          {/* <section className="px-5 md:px-14 lg:px-24 py-16 bg-kotak-kotak">
-            <Contact></Contact>
-          </section> */}
           <section className="px-5 md:px-10 lg:px-24 pt-16 pb-8 bg-slate-700 bg-tulisan-nexaweb">
             <Footer></Footer>
           </section>
