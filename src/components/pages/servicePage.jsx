@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import NavbarTop from '../Fragments/NavbarTop';
 import Service from '../Fragments/Service';
 import responsiveDesign from '../../assets/icons/responsive-design.png';
@@ -58,9 +57,9 @@ const ServicePage = () => {
         </header>
         <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
           <section className="pb-20">
-            <div className="w-7/12">
-              <h1 className="font-judul text-6xl font-bold leading-tight">Pelayanan Jasa Pembuatan Website di Nexaweb</h1>
-              <p className="font-paragraf pt-4">
+            <div className="w-full md:w-10/12 lg:w-7/12 ">
+              <h1 className="font-judul text-5xl md:text-6xl font-bold leading-tight text-[#414040]">Pelayanan Jasa Pembuatan Website di Nexaweb</h1>
+              <p className="font-paragraf text-lg font-semibold pt-4">
                 {' '}
                 <span className="font-bold text-green-400">Nexaweb</span> berkomitmen untuk menyediakan layanan pembuatan website yang berkualitas tinggi dan sesuai dengan kebutuhan Anda. Dari desain visual hingga pengembangan fitur, kami
                 memastikan setiap detail mencerminkan brand Anda dan memberikan pengalaman terbaik bagi pengguna.
@@ -71,7 +70,7 @@ const ServicePage = () => {
             <div className="pb-8">
               <h1 className="font-judul text-4xl font-semibold">Apa yang Kami Tawarkan?</h1>
             </div>
-            <div className="seluruh-card grid grid-cols-2 gap-8 justify-items-center">
+            <div className="seluruh-card grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
               {offerServices.map((service) => (
                 <OfferServices key={service.id} icon={service.icon} title={service.title} description={service.description} style="col-span-1 h-full" />
               ))}

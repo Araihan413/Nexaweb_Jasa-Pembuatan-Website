@@ -1,6 +1,6 @@
 import CardSuperior from '../Elements/CardSuperior';
-import ilustrasi from '../../assets/Programming-pana.svg';
-import bgIlustrasi from '../../assets/Programming-pana_bg.svg';
+import ProgrammingWebsiteFigure from '../../assets/figure/figure-programming-website.svg';
+import ElementProgrammingWebsiteFigure from '../../assets/figure/bg-programming-webiste.svg';
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -22,8 +22,8 @@ const About = () => {
             </motion.p>
           </div>
           <figure className="w-80 h-80 md:top-20   md:absolute relative lg:-top-3 -z-1 right-0">
-            <motion.img variants={inView} whileInView="view" initial="hidden" src={ilustrasi} alt="ilustrasi programming" />
-            <motion.img variants={inView} whileInView="view" initial="hidden" className="absolute top-0" src={bgIlustrasi} alt="ilustrasi programming" />
+            <motion.img variants={inView} whileInView="view" initial="hidden" src={ProgrammingWebsiteFigure} alt="ilustrasi programming" />
+            <motion.img variants={inView} whileInView="view" initial="hidden" className="absolute top-0" src={ElementProgrammingWebsiteFigure} alt="ilustrasi programming" />
           </figure>
         </div>
         <div className="md:pt-20 lg:pt-0">

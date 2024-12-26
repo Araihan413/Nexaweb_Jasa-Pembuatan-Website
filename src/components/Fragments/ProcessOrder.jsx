@@ -53,7 +53,7 @@ const ProcessOrder = () => {
         <article className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
           <LineProcessStart></LineProcessStart>
           {steps.map((step) => {
-            return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} style="max-w-96" />;
+            return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} style="max-w-96"></LineProcess>;
           })}
           <LineProcessEnd></LineProcessEnd>
         </article>

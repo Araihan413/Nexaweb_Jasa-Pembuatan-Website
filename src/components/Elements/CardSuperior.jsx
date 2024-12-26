@@ -1,7 +1,7 @@
-import bestPrice from '../../assets/bestPrice.png';
-import customerService from '../../assets/customerService.png';
-import designResponsif from '../../assets/designResponsif.png';
-import workflow from '../../assets/workflow.png';
+import bestPrice from '../../assets/icons/bestPrice.png';
+import customerService from '../../assets/icons/customerService.png';
+import designResponsif from '../../assets/icons/designResponsif.png';
+import workflow from '../../assets/icons/workflow.png';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 const CardSuperior = () => {
@@ -41,10 +41,14 @@ const CardSuperior = () => {
         {dataCard &&
           dataCard.map((item, index) => {
             return (
-              <motion.div variants={inView} whileInView="view" initial="hidden" className="lg:col-span-1 flex flex-col h-full w-full max-w-[540px] p-4 rounded-lg bg-slate-100 shadow-lg border-2" key={index + 1}>
-                <img className="w-20 h-20 mb-3" src={item.src} alt={item.alt} />
-                <h2 className="md:font-semibold font-bold font-subJudul leading-5 text-xl md:text-lg pb-2">{item.judul}</h2>
-                <p className="font-paragraf font-medium">{item.children}</p>
+              <motion.div variants={inView} whileInView="view" initial="hidden" className="lg:col-span-1  h-full w-full max-w-[540px] rounded-xl shadow-lg overflow-hidden" key={index + 1}>
+                <div className="backdrop-blur-lg bg-slate-100/20 p-4 h-full w-full">
+                  <div className="flex flex-col">
+                    <img className="w-20 h-20 mb-3" src={item.src} alt={item.alt} />
+                    <h2 className="md:font-semibold font-bold font-judul leading-5 text-xl pb-2">{item.judul}</h2>
+                    <p className="font-paragraf font-medium">{item.children}</p>
+                  </div>
+                </div>
               </motion.div>
             );
           })}

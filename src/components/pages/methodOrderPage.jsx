@@ -49,13 +49,13 @@ Jika Anda tidak yakin memilih paket, hubungi kami untuk konsultasi gratis. Kami 
         </header>
         <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
           <section>
-            <div className="pb-10" bv>
-              <h1 className="font-judul text-4xl font-semibold pb-2">Cara Order Website di Nexaweb</h1>
-              <p className="font-judul">
+            <div className="w-full md:w-10/12 lg:w-7/12  pb-10">
+              <h1 className="font-judul text-6xl font-bold leading-tight text-[#414040]">Cara Order Website di Nexaweb</h1>
+              <p className="font-paragraf pt-4">
                 Kami membuat proses pemesanan website mudah dan jelas, sehingga Anda tidak perlu bingung. Ikuti langkah-langkah berikut untuk memesan paket website di Nexaweb hingga website Anda dapat diakses di internet:
               </p>
             </div>
-            <div>
+            <div className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
               <LineProcessStart />
               {steps.map((step) => {
                 return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} />;

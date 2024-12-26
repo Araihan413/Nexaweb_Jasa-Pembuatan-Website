@@ -1,4 +1,4 @@
-import contactMobile from '../../assets/contact_mobile.svg';
+import contactMobile from '../../assets/figure/contact_mobile.svg';
 import { FormContact, FormTextarea } from '../Elements/FormContact';
 import { motion } from 'framer-motion';
 

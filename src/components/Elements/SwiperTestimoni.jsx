@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import profil1 from '../../assets/profil/profil1.jpg';
+import profil1 from '../../assets/image/profil1.jpg';
 
 const SwiperTestimoni = () => {
   return (

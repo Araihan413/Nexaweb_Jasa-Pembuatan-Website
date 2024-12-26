@@ -10,7 +10,6 @@ const Heading = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center gap-8 md:h-full h-screen lg:h-screen w-full">
-        {/*bg-gradient-primer bg-clip-text text-transparent */}
         <article className="flex flex-col justify-center items-start text-start ">
           <div className="mb-8">
             <div className="font-judul font-extrabold text-5xl md:text-7xl py-2 flex flex-col gap-3 text-[#414040]">

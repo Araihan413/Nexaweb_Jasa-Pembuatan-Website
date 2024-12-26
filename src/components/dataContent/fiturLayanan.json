@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "icon": "responsiveDesign",
+      "title": "Desain Website yang Responsif",
+      "description": "Kami memastikan website Anda dapat diakses dengan baik di semua perangkat, baik desktop, tablet, maupun smartphone."
+    },
+    {
+      "id": 2,
+      "icon": "customDesign",
+      "title": "Fitur Custom Sesuai Kebutuhan",
+      "description": "Kami memahami bahwa setiap bisnis memiliki kebutuhan unik. Oleh karena itu, kami menyediakan fitur custom yang dapat diatur sesuai kebutuhan Anda."
+    },
+    {
+      "id": 3,
+      "icon": "optimization",
+      "title": "Optimasi Performa Website",
+      "description": "Kecepatan loading website adalah prioritas kami, dengan menggunakan teknik optimasi seperti kompresi gambar, caching, dan coding yang efisien."
+    },
+    {
+      "id": 4,
+      "icon": "seoFrendly",
+      "title": "SEO-Friendly",
+      "description": "Website Anda akan dirancang dengan struktur yang mendukung optimasi mesin pencari (SEO)."
+    },
+    {
+      "id": 5,
+      "icon": "manageContent",
+      "title": "Pengelolaan Konten yang Mudah",
+      "description": "Kami menggunakan platform Content Management System (CMS) seperti WordPress, sehingga Anda bisa dengan mudah mengelola dan memperbarui konten."
+    },
+    {
+      "id": 6,
+      "icon": "security",
+      "title": "Keamanan yang Terjamin",
+      "description": "Keamanan data Anda adalah prioritas kami. Kami memasang sertifikat SSL, sistem firewall, dan perlindungan dari serangan cyber."
+    }
+  ]
+}

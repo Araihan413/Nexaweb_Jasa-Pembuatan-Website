@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "src": "designResponsif",
+      "alt": "design Modern dan responsif",
+      "judul": "Desain Modern dan Responsif",
+      "children": "Kami memahami pentingnya tampilan yang menarik dan fungsional. Website yang kami buat tidak hanya terlihat indah di layar komputer, tetapi juga di perangkat mobile dan tablet."
+    },
+    {
+      "src": "customerService",
+      "alt": "Support Pelanggan",
+      "judul": "Support Pelanggan",
+      "children": "Kami selalu siap membantu Anda kapan saja. Baik itu masalah teknis atau pertanyaan terkait fitur, kami tersedia untuk memberikan solusi cepat dan efektif."
+    },
+    {
+      "src": "bestPrice",
+      "alt": "Harga Terjangkau",
+      "judul": "Harga Terjangkau",
+      "children": "Kami menawarkan layanan berkualitas tinggi dengan harga yang ramah di kantong. Dengan Nexaweb, Anda tidak perlu mengorbankan kualitas untuk menghemat biaya."
+    },
+    {
+      "src": "workflow",
+      "alt": "Proses Cepat dan Transparan",
+      "judul": "Proses Cepat dan Transparan",
+      "children": "Proses pembuatan website kami dirancang agar cepat dan efisien tanpa mengorbankan detail. Kami juga menjamin transparansi penuh dalam setiap langkah, sehingga Anda selalu tahu apa yang sedang dikerjakan."
+    }
+  ]
+}

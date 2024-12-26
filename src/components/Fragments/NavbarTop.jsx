@@ -12,8 +12,8 @@ const NavbarTop = () => {
   };
 
   const toggle = {
-    hidden: { opacity: 0, scale: 0.4, transition: { duration: 0.3 } },
-    show: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
+    hidden: { opacity: 0, x: 500, transition: { duration: 0.3 } },
+    show: { opacity: 1, x: 0, transition: { duration: 0.3 } },
   };
 
   return (
@@ -29,8 +29,8 @@ const NavbarTop = () => {
                 variants={toggle}
                 initial={window.innerWidth >= 1024 ? '' : 'hidden'}
                 animate={window.innerWidth >= 1024 ? '' : 'show'}
-                exit={{ opacity: 0, scale: 0.4, transition: { duration: 0.3 } }}
-                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-5 lg:p-3 lg:rounded-full bg-gradient-primer  shadow-xl text-white">
+                exit={{ opacity: 0, x: 500, transition: { duration: 0.3 } }}
+                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-20 lg:p-3 lg:rounded-full lg:bg-gradient-primer bg-slate-700 shadow-xl text-white">
                 <ul className="h-full w-full  flex-col lg:flex-row flex  justify-center items-center gap-6 text-4xl lg:text-xl font-normal font-subJudul  text-white">
                   <li>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/">

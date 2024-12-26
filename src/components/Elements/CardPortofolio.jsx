@@ -1,4 +1,4 @@
-import porto1 from '../../assets/portofolio/porto1.png';
+import porto1 from '../../assets/image/porto1.png';
 import Button from '../Elements/Button';
 
 const CardPortofolio = () => {

@@ -6,13 +6,16 @@ const inView = {
 };
 
 export const LineProcess = (props) => {
-  const { title, titleDescription, description, number, style = '' } = props;
+  const { title, titleDescription, description, number, children, style = '' } = props;
 
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-9">
         <motion.div variants={inView} whileInView="view" initial="hidden" className="order-2 md:order-1 col-span-1  md:col-span-2 py-2  md:py-5 flex md:justify-start justify-center items-center ">
-          <h1 className="font-subJdul text-lg font-bold">{title}</h1>
+          <div className="flex flex-col items-center">
+            <h2>langkah {number}</h2>
+            <h1 className="font-subJdul text-lg font-bold">{title}</h1>
+          </div>
         </motion.div>
         <div
           data-number={number}
@@ -21,6 +24,7 @@ export const LineProcess = (props) => {
           <motion.div variants={inView} whileInView="view" initial="hidden" className={`bg-white border-[1px] rounded-lg shadow-lg p-4 ${style}`}>
             <h3 className="font-subJudul text-lg">{titleDescription}</h3>
             <p className="font-paragraf">{description}</p>
+            {children}
           </motion.div>
         </div>
       </div>
