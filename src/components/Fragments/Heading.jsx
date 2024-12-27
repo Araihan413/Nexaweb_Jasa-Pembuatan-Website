@@ -42,15 +42,15 @@ const Heading = () => {
             Kami menyediakan layanan pembuatan website modern, responsif, dan berkualitas tinggi untuk mendukung kesuksesan online Anda. Dari toko online hingga portofolio pribadi, Nexaweb siap membantu Anda.
           </motion.p>
         </article>
-        <div className="flex gap-8">
-          <motion.div whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: -100 }}>
-            <Button warna="bg-gradient-sekunder" style="text-[#474747]">
+        <div className="flex gap-4 md:gap-8">
+          <motion.div animate={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: -100 }}>
+            <Button warna="bg-gradient-sekunder" style="text-[#474747] w-40">
               Pesan Sekarang
             </Button>
           </motion.div>
-          <motion.div whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: 100 }}>
-            <Button warna="bg-[#ebf4f5]" style="text-[#474747]">
-              Lihat Portofolio
+          <motion.div animate={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: 100 }}>
+            <Button warna="bg-[#ebf4f5]" style="text-[#474747] w-40">
+              Lihat Layanan
             </Button>
           </motion.div>
         </div>

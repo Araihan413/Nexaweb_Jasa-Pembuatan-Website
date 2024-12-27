@@ -11,10 +11,10 @@ const Portofolio = () => {
       <div>
         <div className="pb-8">
           <motion.h1 variants={inView} whileInView="view" initial="hidden" className="font-judul text-4xl font-semibold mb-2">
-            Hasil Kerja Kami
+            Projek Yang Pernah Dibuat
           </motion.h1>
           <motion.p variants={inView} whileInView="view" initial="hidden" transition={{ delay: 0.3 }} className="font-paragraf max-w-[600px]">
-            Berikut adalah beberapa proyek yang telah kami selesaikan untuk klien kami. Setiap proyek dirancang dengan hati-hati untuk memenuhi kebutuhan spesifik mereka.
+            Berikut adalah beberapa proyek yang pernah dibuat. Setiap proyek dirancang agar responsif dan memenuhi kebutuhan pengguna.
           </motion.p>
         </div>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 2 } }} className="flex gap-5 gap-y-10 flex-wrap justify-center items-center">

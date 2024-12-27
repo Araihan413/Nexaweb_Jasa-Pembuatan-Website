@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
     <>
       <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} className="w-max h-max">
-        <button className={`p-4 py-3 ${warna} ${style} rounded-xl border-2 font-semibold shadow-md`}>{children}</button>
+        <button className={`p-4 py-3 ${warna} ${style} rounded-xl font-semibold shadow-md`}>{children}</button>
       </motion.div>
     </>
   );

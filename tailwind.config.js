@@ -23,7 +23,8 @@ export default {
       "gradient-transparant": "linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1))",
       "kotak-kotak": "url('./src/assets/background/bg-kotak-bolong.svg')",
       "gradient-kursor": "linear-gradient(to right, rgba(64, 201, 255, 0.7), rgba(232, 28, 255, 0.7))"
-    }
+    },
+
   },
   plugins: [],
 }

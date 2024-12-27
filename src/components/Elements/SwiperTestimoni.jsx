@@ -40,7 +40,7 @@ const SwiperTestimoni = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper h-72 relative">
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -54,7 +54,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -68,7 +68,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -82,7 +82,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -96,7 +96,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -110,7 +110,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -124,7 +124,7 @@ const SwiperTestimoni = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-2">
-          <div className="bg-slate-100 rounded-lg h-full p-3  shadow-md">
+          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
             <div className="flex gap-4 justify-start items-center pb-5">
               <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
               <div>
@@ -137,6 +137,7 @@ const SwiperTestimoni = () => {
             </div>
           </div>
         </SwiperSlide>
+
 
         <div className="swiper-pagination absolute"></div>
       </Swiper>

@@ -21,19 +21,19 @@
     {
       "id": 4,
       "icon": "seoFrendly",
-      "title": "SEO-Friendly",
+      "title": "Animasi Yang Menarik",
       "description": "Website Anda akan dirancang dengan struktur yang mendukung optimasi mesin pencari (SEO)."
     },
     {
       "id": 5,
       "icon": "manageContent",
-      "title": "Pengelolaan Konten yang Mudah",
+      "title": "Ramah Di Kantong",
       "description": "Kami menggunakan platform Content Management System (CMS) seperti WordPress, sehingga Anda bisa dengan mudah mengelola dan memperbarui konten."
     },
-    {
+    { 
       "id": 6,
       "icon": "security",
-      "title": "Keamanan yang Terjamin",
+      "title": "Konsultasi Gratis",
       "description": "Keamanan data Anda adalah prioritas kami. Kami memasang sertifikat SSL, sistem firewall, dan perlindungan dari serangan cyber."
     }
   ]

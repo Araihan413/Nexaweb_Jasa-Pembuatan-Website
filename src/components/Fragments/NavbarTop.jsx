@@ -30,7 +30,7 @@ const NavbarTop = () => {
                 initial={window.innerWidth >= 1024 ? '' : 'hidden'}
                 animate={window.innerWidth >= 1024 ? '' : 'show'}
                 exit={{ opacity: 0, x: 500, transition: { duration: 0.3 } }}
-                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-20 lg:p-3 lg:rounded-full lg:bg-gradient-primer bg-slate-700 shadow-xl text-white">
+                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-16 lg:p-3 lg:rounded-full lg:bg-gradient-primer bg-slate-700 shadow-xl text-white">
                 <ul className="h-full w-full  flex-col lg:flex-row flex  justify-center items-center gap-6 text-4xl lg:text-xl font-normal font-subJudul  text-white">
                   <li>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/">

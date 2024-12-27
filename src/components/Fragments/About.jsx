@@ -16,9 +16,8 @@ const About = () => {
             <motion.h1 variants={inView} whileInView="view" initial="hidden" className="text-4xl font-judul font-semibold mb-8">
               Mengapa Memilih Nexaweb?
             </motion.h1>
-            <motion.p variants={inView} whileInView="view" initial="hidden" transition={{ delay: 0.3 }} className="md:w-1/2 font-paragraf">
-              Nexaweb adalah tim profesional yang berdedikasi untuk memberikan solusi digital terbaik bagi klien kami. Dengan pengalaman bertahun-tahun, kami telah membantu berbagai bisnis dan individu untuk memperluas jangkauan mereka
-              secara online.
+            <motion.p variants={inView} whileInView="view" initial="hidden" transition={{ delay: 0.3 }} className="md:w-2/5 lg:w-1/2 font-paragraf text-justify">
+              Nexaweb adalah layanan yang menawarkan jasa pembuatan website modern, responsif, dan sesuai kebutuhan klien. Dengan pendekatan personal dan inovatif, Nexaweb mengutamakan desain menarik, fitur fungsional, dan performa optimal untuk membantu individu maupun bisnis memperluas jangkauan mereka di dunia digital. Kami berkomitmen untuk memberikan solusi website yang efektif dan terjangkau.
             </motion.p>
           </div>
           <figure className="w-80 h-80 md:top-20   md:absolute relative lg:-top-3 -z-1 right-0">
@@ -26,8 +25,8 @@ const About = () => {
             <motion.img variants={inView} whileInView="view" initial="hidden" className="absolute top-0" src={ElementProgrammingWebsiteFigure} alt="ilustrasi programming" />
           </figure>
         </div>
-        <div className="md:pt-20 lg:pt-0">
-          <motion.h3 variants={inView} whileInView="view" initial="hidden" className="text-center font-judul font-semibold text-4xl mb-8">
+        <div className="pt-0">
+          <motion.h3 variants={inView} whileInView="view" initial="hidden" className="md:text-center font-judul font-semibold text-4xl mb-8 text-start">
             Keunggulan Menggunakan Jasa Nexaweb
           </motion.h3>
           <CardSuperior></CardSuperior>

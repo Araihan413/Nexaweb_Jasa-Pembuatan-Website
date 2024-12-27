@@ -17,7 +17,7 @@ const Home = () => {
           <NavbarTop />
         </header>
         <main>
-          <section className="pt-12 px-5 md:py-36 md:pt-52 lg:pt-10 md:px-14 lg:px-24 bg-kotak-kotak -z-20 ">
+          <section className="pt-12 px-5 md:py-16 lg:pb-16 md:pt-40 lg:pt-10 md:px-14 lg:px-24 bg-kotak-kotak -z-20 ">
             <div className="w-full h-full relative z-20 ">
               <div className="w-[20vw] h-[20vw] rounded-full bg-gradient-bubble1 blur-xl absolute top-1/4 left-0  -z-10"></div>
               <div className="w-[25vw] h-[25vw] rounded-full bg-gradient-bubble2 blur-xl absolute top-0 -right-16 -z-10"></div>
