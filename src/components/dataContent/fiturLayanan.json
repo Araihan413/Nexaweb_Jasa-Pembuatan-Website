@@ -2,39 +2,39 @@
   "data": [
     {
       "id": 1,
-      "icon": "responsiveDesign",
+      "icon": "/src/assets/icons/responsive-design.png",
       "title": "Desain Website yang Responsif",
       "description": "Kami memastikan website Anda dapat diakses dengan baik di semua perangkat, baik desktop, tablet, maupun smartphone."
     },
     {
       "id": 2,
-      "icon": "customDesign",
+      "icon": "/src/assets/icons/custom-design.png",
       "title": "Fitur Custom Sesuai Kebutuhan",
       "description": "Kami memahami bahwa setiap bisnis memiliki kebutuhan unik. Oleh karena itu, kami menyediakan fitur custom yang dapat diatur sesuai kebutuhan Anda."
     },
     {
       "id": 3,
-      "icon": "optimization",
+      "icon": "/src/assets/icons/optimization.png",
       "title": "Optimasi Performa Website",
       "description": "Kecepatan loading website adalah prioritas kami, dengan menggunakan teknik optimasi seperti kompresi gambar, caching, dan coding yang efisien."
     },
     {
       "id": 4,
-      "icon": "seoFrendly",
+      "icon": "/src/assets/icons/animate.png",
       "title": "Animasi Yang Menarik",
-      "description": "Website Anda akan dirancang dengan struktur yang mendukung optimasi mesin pencari (SEO)."
+      "description": "Website Anda akan dirancang dengan animasi simple tetapi dapat membuat website anda menjadi lebih hidup dan menarik."
     },
     {
       "id": 5,
-      "icon": "manageContent",
+      "icon": "/src/assets/icons/cheap-price.png",
       "title": "Ramah Di Kantong",
-      "description": "Kami menggunakan platform Content Management System (CMS) seperti WordPress, sehingga Anda bisa dengan mudah mengelola dan memperbarui konten."
+      "description": "Kami akan memberikan harga yang terjangkau yang sesuai dengan kebutuhan website anda."
     },
-    { 
+    {
       "id": 6,
-      "icon": "security",
+      "icon": "/src/assets/icons/consultation.png",
       "title": "Konsultasi Gratis",
-      "description": "Keamanan data Anda adalah prioritas kami. Kami memasang sertifikat SSL, sistem firewall, dan perlindungan dari serangan cyber."
+      "description": "Kami memberikan konsultasi gratis kepada anda yang masih bingung tentang seputar kebutuhan website anda."
     }
   ]
 }

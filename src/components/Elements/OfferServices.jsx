@@ -7,7 +7,7 @@ const OfferServices = (props) => {
   return (
     <>
       <div onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className={` rounded-2xl w-full lg:w-96 relative overflow-hidden  shadow-xl ${style}`}>
-        <div className="backdrop-blur-lg h-full bg-white/40 p-4">
+        <div className="backdrop-blur-lg h-full bg-slate-200/40 p-4">
           <motion.div
             animate={{ width: isHovered ? '100%' : '5rem', height: isHovered ? '100%' : '5rem', borderRadius: isHovered ? '0px' : '999px', top: isHovered ? '0rem' : '0.75rem', left: isHovered ? '0rem' : '0.75rem' }}
             transition={{

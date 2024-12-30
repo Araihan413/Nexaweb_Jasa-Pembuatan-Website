@@ -2,25 +2,28 @@ import Button from './Button';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MdControlPoint } from "react-icons/md";
-import { AiTwotoneSound } from "react-icons/ai";
+
 
 const CardPrice = () => {
   const inView = {
     view: { opacity: 1, transition: { duration: 0.8 } },
     hidden: { opacity: 0 },
   };
-  const [fitur, setFitur] = useState(['5 Halaman', '5 Hari Pengerjaan', '1x Revisi', '1 SEO Keyword', '5 page SEO Dasar', '10 Upload Setup Gambar', '+3 Akun Email', 'GRATIS! SSL', 'GRATIS! DOMAIN .COM/CO.ID', 'Mobile Friendly']);
   return (
     <>
       <div className='w-full px-2 pb-10 md:px-10 bg-slate-200/20 backdrop-blur-md rounded-2xl shadow-box-glass'>
         <div className='font-paragraf mb-5'>
           <h2 className='font-judul text-2xl font-medium text-center py-5'>Jasa Yang Ditawarkan</h2>
           <div className='flex flex-col md:flex-row justify-center items-center'>
-            <div className='bg-blue-200 w-full p-10 text-center shadow-xl border-2'>
-              <p>Pembuatan Website Custom</p>
+            <div className='w-full p-10 text-center shadow-xl border-2 bg-image-layanan-custom-website bg-cover bg-bottom'>
+              <div className='w-full h-20 flex justify-center items-center'>
+                <h3 className='font-judul font-semibold text-xl p-5 effect-glass rounded-xl shadow-box-light'>Pembuatan Website Custom</h3>
+              </div>
             </div>
-            <div className='bg-blue-200 w-full p-10 text-center shadow-xl border-2'>
-              <p>Jokian Tugas Website</p>
+            <div className='w-full p-10 text-center shadow-xl border-2 bg-image-layanan-joki-website bg-cover bg-bottom'>
+              <div className='w-full h-20 flex justify-center items-center'>
+                <h3 className='font-judul font-semibold text-xl p-5 effect-glass rounded-xl shadow-box-light'>Jokian Tugas Website</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -93,8 +96,8 @@ const CardPrice = () => {
               </div>
               <p>Waktu Pengerjaan: Untuk pengerjaan mendesak, biaya tambahan bisa dikenakan.</p>
             </div>
-            <div className='font-paragraf text-center mt-10'>
-              <h3 className='font-judul text-xl font-medium pb-2'>Hubungi Sekarang!</h3>
+            <div className='font-paragraf text-center mt-10 flex flex-col justify-center items-center gap-2'>
+              <Button style='font-judul text-xl font-medium pb-2' warna='bg-blue-300'>Hubungi Sekarang!</Button>
               <p>Konsultasikan kebutuhan Anda <b >GRATIS</b> dan dapatkan penawaran <b>terbaik!</b></p>
             </div>
           </div>

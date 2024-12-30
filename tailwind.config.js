@@ -19,10 +19,12 @@ export default {
       "gradient-sekunder": "linear-gradient(to right, rgba(0, 255, 135, 1), rgba(96, 239, 255, 1))",
       "gradient-bubble1": "linear-gradient(to right, rgba(0, 255, 135, 0.5), rgba(96, 239, 255, 0.5))",
       "gradient-bubble2": "linear-gradient(to right, rgba(246, 213, 247, 0.5), rgba(251, 233, 215, 0.5))",
-      "gradient-top": "linear-gradient(to top, #dbeafe, #f1f5f9)",
+      // "gradient-top": "linear-gradient(to top, #dbeafe, #f1f5f9)",
       "gradient-transparant": "linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1))",
       "kotak-kotak": "url('./src/assets/background/bg-kotak-bolong.svg')",
-      "gradient-kursor": "linear-gradient(to right, rgba(64, 201, 255, 0.7), rgba(232, 28, 255, 0.7))"
+      "gradient-kursor": "linear-gradient(to right, rgba(64, 201, 255, 0.7), rgba(232, 28, 255, 0.7))",
+      "image-layanan-joki-website": "url('./src/assets/image/layanan-joki-tugas-website.jpg')",
+      "image-layanan-custom-website": "url('./src/assets/image/layanan-website-custom.jpg')",
     },
 
   },

@@ -1,5 +1,5 @@
 import Home from './components/pages/home';
-import BlogPage from './components/pages/blogPage';
+// import BlogPage from './components/pages/blogPage';
 import ContactPage from './components/pages/contactPage';
 import MethodOrderPage from './components/pages/methodOrderPage';
 import ServicePage from './components/pages/servicePage';
@@ -38,10 +38,10 @@ function App() {
       path: '/contact',
       element: <ContactPage />,
     },
-    {
-      path: '/blog',
-      element: <BlogPage />,
-    },
+    // {
+    //   path: '/blog',
+    //   element: <BlogPage />,
+    // },
     {
       path: '*',
       element: <ErrorPage />,

@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import dataTestimoni from '../dataContent/testimoni.json';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import profil1 from '../../assets/image/profil1.jpg';
 
 const SwiperTestimoni = () => {
+  const listTestimoni = dataTestimoni.data;
   return (
     <>
       <Swiper
@@ -39,105 +40,25 @@ const SwiperTestimoni = () => {
         }}
         modules={[Autoplay, Pagination]}
         className="mySwiper h-72 relative">
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="py-2">
-          <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
-            <div className="flex gap-4 justify-start items-center pb-5">
-              <img className="rounded-full w-10 h-10 border-2" src={profil1} alt="profil 1" />
-              <div>
-                <h1 className="font-subJudul font-medium">Aulia</h1>
-                <h1 className="font-paragraf font-medium text-xs">Pemilik Bisnis Fashion</h1>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="font-paragraf">"Saya sangat puas dengan hasil kerja Nexaweb. Website saya kini terlihat profesional!"</p>
-            </div>
-          </div>
-        </SwiperSlide>
 
+        {listTestimoni.map((item) => {
+          return (<SwiperSlide key={item.id} className="py-2">
+            <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
+              <div className="flex gap-4 justify-start items-center pb-8">
+                <img className="rounded-full w-10 h-10 border-2" src={item.src} alt="profil 1" />
+                <div>
+                  <h1 className="font-subJudul font-medium">{item.name}</h1>
+                  <h1 className="font-paragraf font-medium text-xs">{item.status}</h1>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className='flex flex-wrap'>
+                  <p className="font-paragraf">{item.description}</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>)
+        })}
 
         <div className="swiper-pagination absolute"></div>
       </Swiper>

@@ -39,7 +39,7 @@ const Heading = () => {
           </div>
 
           <motion.p animate={{ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.8 } }} initial={{ opacity: 0, y: 100 }} className="font-paragraf font-semibold text-lg mb-3 md:w-4/5 lg:w-1/2 ">
-            Kami menyediakan layanan pembuatan website modern, responsif, dan berkualitas tinggi untuk mendukung kesuksesan online Anda. Dari toko online hingga portofolio pribadi, Nexaweb siap membantu Anda.
+            Kami menyediakan layanan pembuatan website modern, responsif, dan berkualitas untuk mendukung kesuksesan online Anda. Dari toko online hingga portofolio pribadi, Nexaweb siap membantu Anda.
           </motion.p>
         </article>
         <div className="flex gap-4 md:gap-8">

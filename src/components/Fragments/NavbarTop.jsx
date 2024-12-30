@@ -52,11 +52,11 @@ const NavbarTop = () => {
                       Kontak
                     </NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/blog">
                       Blog
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </motion.div>
             )}

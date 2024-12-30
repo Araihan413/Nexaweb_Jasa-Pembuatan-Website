@@ -1,22 +1,22 @@
 {
   "data": [
     {
-      "src": "/src/assets/icons/designResponsif.png",
+      "src": "/src/assets/icons/design-responsif.png",
       "alt": "design Modern dan responsif",
       "judul": "Desain Modern dan Responsif",
-      "children": "Kami memahami pentingnya tampilan yang menarik dan fungsional. Website yang kami buat tidak hanya terlihat indah di layar komputer, tetapi juga di perangkat mobile dan tablet."
+      "children": "Nexaweb memahami pentingnya tampilan yang menarik dan fungsional. Website yang kami buat tidak hanya terlihat indah di layar komputer, tetapi juga di perangkat mobile dan tablet."
     },
     {
-      "src": "/src/assets//icons/customerService.png",
+      "src": "/src/assets//icons/customer-service.png",
       "alt": "Support Pelanggan",
       "judul": "Support Pelanggan",
-      "children": "Kami selalu siap membantu Anda kapan saja. Baik itu masalah teknis atau pertanyaan terkait fitur, kami tersedia untuk memberikan solusi cepat dan efektif."
+      "children": "Nexaweb selalu siap membantu Anda kapan saja. Baik itu masalah teknis atau pertanyaan terkait fitur, kami tersedia untuk memberikan solusi cepat dan efektif."
     },
     {
-      "src": "/src/assets/icons/bestPrice.png",
+      "src": "/src/assets/icons/best-price.png",
       "alt": "Harga Terjangkau",
       "judul": "Harga Terjangkau",
-      "children": "Kami menawarkan layanan berkualitas tinggi dengan harga yang ramah di kantong. Dengan Nexaweb, Anda tidak perlu mengorbankan kualitas untuk menghemat biaya."
+      "children": "Nexaweb menawarkan layanan berkualitas tinggi dengan harga yang ramah di kantong. Dengan Nexaweb, Anda tidak perlu mengorbankan kualitas untuk menghemat biaya."
     },
     {
       "src": "/src/assets/icons/workflow.png",

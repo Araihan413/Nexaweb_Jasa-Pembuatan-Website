@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Aulia Rahma",
+      "src": "/src/assets/image/img-profil-1.jpg",
+      "status": "Mahasiswa",
+      "description": "Pelayanannya cepat dan sangat membantu! Website yang dibuat sesuai dengan instruksi dan terlihat profesional."
+    },
+    {
+      "id": 2,
+      "name": "Rizky Pratama",
+      "src": "/src/assets/image/img-profil-2.jpg",
+      "status": "Mahasiswa",
+      "description": "Sangat responsif dalam komunikasi, dan desain website yang dihasilkan menarik dan modern."
+    },
+    {
+      "id": 3,
+      "name": "Dewi Andini",
+      "src": "/src/assets/image/img-profil-3.jpg",
+      "status": "Mahasiswa",
+      "description": "Saya puas dengan hasil tugas website saya. Pelayanan ramah dan pengerjaan tepat waktu."
+    },
+    {
+      "id": 4,
+      "name": "Ardi Saputra",
+      "src": "/src/assets/image/img-profil-4.jpg",
+      "status": "Mahasiswa",
+      "description": "Proses diskusinya sangat mudah, dan hasil desain websitenya sederhana tapi elegan. Sangat direkomendasikan!"
+    },
+    {
+      "id": 5,
+      "name": "Nadya Putri",
+      "src": "/src/assets/image/img-profil-5.jpg",
+      "status": "Mahasiswa",
+      "description": "Responsifitasnya luar biasa! Saya senang bisa berkomunikasi langsung untuk memastikan website sesuai harapan."
+    },
+    {
+      "id": 6,
+      "name": "Fahriansyah",
+      "src": "/src/assets/image/img-profil-6.jpg",
+      "status": "Pemilik Bisnis Kecil",
+      "description": "Desain website untuk bisnis saya sangat menarik dan profesional. Pelayanan juga sangat ramah."
+    },
+    {
+      "id": 7,
+      "name": "Laila Sari",
+      "src": "/src/assets/image/img-profil-7.jpg",
+      "status": "Pemilik Toko Online",
+      "description": "Pelayanan sangat baik, respons cepat, dan desain websitenya membantu toko online saya terlihat lebih profesional."
+    }
+  ]
+}

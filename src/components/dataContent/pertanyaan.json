@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "Berapa lama waktu pengerjaan website?",
+      "answer": [
+        "Waktu pengerjaan tergantung pada kompleksitas website serta ketersediaan konten.",
+        "- Website sederhana: 3-6 hari.",
+        "- Website menengah: 6-12 hari.",
+        "- Website kompleks: 12-21 hari atau lebih.",
+        "Kami akan memberikan estimasi waktu yang jelas setelah diskusi kebutuhan Anda."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Berapa harga jasa pembuatan website?",
+      "answer": "Harga mulai dari Rp100.000, tergantung jumlah halaman dan fitur yang diinginkan. Kami juga menyediakan rincian biaya transparan untuk setiap layanan yang Anda pilih."
+    },
+    {
+      "id": 3,
+      "question": "Apakah saya bisa meminta revisi?",
+      "answer": "Tentu! Kami memberikan 1-2 kali revisi gratis sesuai dengan kesepakatan awal. Jika ada revisi tambahan di luar itu, biaya tambahan akan diberlakukan sesuai tingkat perubahan."
+    },
+    {
+      "id": 4,
+      "question": "Apakah Anda menerima pengerjaan tugas kuliah?",
+      "answer": "Ya, kami menerima jokian tugas website dengan harga terjangkau. Hasil pengerjaan dijamin rapi dan sesuai instruksi."
+    },
+    {
+      "id": 5,
+      "question": "Apakah website yang dibuat sudah mobile-friendly?",
+      "answer": "Ya, semua website yang kami buat responsif dan dapat diakses dengan baik di desktop, tablet, maupun ponsel."
+    },
+    {
+      "id": 6,
+      "question": "Bisakah saya meminta fitur khusus untuk website saya?",
+      "answer": [
+        "Bisa! Kami dapat menambahkan fitur seperti:",
+        "- Formulir kontak.",
+        "- Login dengan media sosial.",
+        "- Integrasi payment gateway.",
+        "- Dan fitur lainnya sesuai kebutuhan Anda."
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Bagaimana cara pemesanan jasa?",
+      "answer": [
+        "Anda bisa menghubungi kami melalui:",
+        "- WhatsApp: 0811-4744-445.",
+        "- Email: arraihan0104@gmail.com.",
+        "- Atau tekan tombol pemesanan di bagian atas website ini."
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Apakah saya perlu menyediakan konten untuk website?",
+      "answer": "Kami akan membantu Anda menyusun struktur website, tetapi Anda perlu menyediakan konten seperti teks, gambar, dan informasi lainnya. Jika Anda membutuhkan bantuan untuk konten, kami juga bisa membantu sesuai dengan referensi yang anda inginkan dengan biaya tambahan ."
+    },
+    {
+      "id": 9,
+      "question": "Apakah pembayaran bisa dilakukan bertahap?",
+      "answer": [
+        "Pembayaran biasanya dilakukan dalam dua tahap:",
+        "- DP (Down Payment): 50% saat memulai proyek.",
+        "- Pelunasan: Setelah website selesai dan diterima."
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Apakah pengerjaan website di Nexaweb dikerjakan oleh tim atau individu?",
+      "answer": "Untuk saat ini pengerjaan website di Nexaweb masih dikerjakan secara individu. jadi mohon maaf jika pengerjaannya sedikit lambat karena keterbatasan personal dan juga waktu."
+    }
+  ]
+}
