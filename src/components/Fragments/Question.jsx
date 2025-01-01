@@ -2,13 +2,12 @@ import { motion } from 'framer-motion';
 import FAQItem from '../Elements/FAQItem';
 import dataFAQ from '../dataContent/pertanyaan.json'
 
+const listQuestion = dataFAQ.data
 const Question = () => {
   const inView = {
     view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
-
-  const listQuestion = dataFAQ.data
   return (
     <>
       <div className="flex flex-col justify-center items-center ">

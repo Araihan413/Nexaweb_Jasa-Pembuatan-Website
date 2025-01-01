@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion';
 import dataContent from '../dataContent/keunggulan.json'
+
+const dataCard = dataContent.data
 const CardSuperior = () => {
   const inView = {
     view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
-  const dataCard = dataContent.data
+
   return (
     <>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 md:gap-8 place-items-center">

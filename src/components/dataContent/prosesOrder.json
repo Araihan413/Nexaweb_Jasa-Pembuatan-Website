@@ -1,37 +1,53 @@
 {
-  "data": {
-    "prosesOrder": [
-      {
-        "id": "1",
-        "title": "Konsultasi Awal",
-        "titleDescription": "Diskusikan Kebutuhan Anda",
-        "description": "Ceritakan tujuan, fitur yang diinginkan, dan gaya desain yang sesuai dengan brand Anda."
-      },
-      {
-        "id": "2",
-        "title": "Penawaran dan Kesepakatan",
-        "titleDescription": "Pilih Paket dan Mulai Proyek",
-        "description": "Kami akan memberikan penawaran yang mencakup detail layanan, waktu pengerjaan, dan harga. Setelah disepakati, lakukan pembayaran awal untuk memulai proyek."
-      },
-      {
-        "id": "3",
-        "title": "Desain dan Pengembangan",
-        "titleDescription": "Website Dibangun Sesuai Kebutuhan",
-        "description": "Tim kami akan membuat desain awal \"mockup\" untuk persetujuan Anda, lalu mengembangkan website dengan fitur dan fungsi yang lengkap."
-      },
-      {
-        "id": "4",
-        "title": "Revisi dan Pengujian",
-        "titleDescription": "Pastikan Website Sempurna",
-        "description": "Anda dapat memberikan masukan untuk revisi. Kami juga melakukan pengujian untuk memastikan semua fitur berfungsi dengan baik."
-      },
-      {
-        "id": "5",
-        "title": "Peluncuran Website",
-        "titleDescription": "Online dan Siap Digunakan",
-        "description": "Kami membantu mengunggah website Anda ke domain dan hosting. Website Anda kini siap digunakan, dan kami menyediakan dukungan teknis pasca peluncuran."
-      }
-    ],
-    "detailProsesOrder": [{}]
-  }
+  "data": [
+    {
+      "id": 1,
+      "title": "Konsultasi Awal",
+      "description": "Diskusikan kebutuhan Anda dengan tim Nexaweb untuk memahami tujuan website dan memilih paket yang sesuai.",
+      "icon": "💬",
+      "stage": "Tahap 1"
+    },
+    {
+      "id": 2,
+      "title": "Pilih Paket Layanan",
+      "description": "Pilih paket layanan sesuai kebutuhan Anda, lakukan pembayaran awal, dan proyek segera dimulai.",
+      "icon": "📦",
+      "stage": "Tahap 2"
+    },
+    {
+      "id": 3,
+      "title": "Pembuatan Desain dan Persetujuan",
+      "description": "Kami membuat desain awal (mockup) untuk mendapatkan persetujuan Anda sebelum masuk ke tahap pengembangan.",
+      "icon": "🎨",
+      "stage": "Tahap 3"
+    },
+    {
+      "id": 4,
+      "title": "Pengembangan Website",
+      "description": "Website dibangun berdasarkan desain yang disetujui, lengkap dengan fitur dan fungsi sesuai kebutuhan Anda.",
+      "icon": "💻",
+      "stage": "Tahap 4"
+    },
+    {
+      "id": 5,
+      "title": "Pengujian dan Revisi",
+      "description": "Kami melakukan pengujian menyeluruh dan menerima masukan untuk revisi, memastikan semuanya sempurna.",
+      "icon": "✔️",
+      "stage": "Tahap 5"
+    },
+    {
+      "id": 6,
+      "title": "Peluncuran Website",
+      "description": "Website diunggah ke domain dan hosting Anda, siap diakses oleh publik.",
+      "icon": "🌐",
+      "stage": "Tahap 6"
+    },
+    {
+      "id": 7,
+      "title": "Dukungan Pasca Peluncuran",
+      "description": "Kami memberikan support teknis selama periode tertentu untuk memastikan website berjalan lancar.",
+      "icon": "🔧",
+      "stage": "Tahap 7"
+    }
+  ]
 }

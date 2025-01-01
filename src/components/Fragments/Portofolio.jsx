@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import dataPortofolio from '../dataContent/portofolio.json';
 
+
+const dataContent = dataPortofolio.data;
 const Portofolio = () => {
   const [isActive, setIsActive] = useState(1);
-  const dataContent = dataPortofolio.data;
-
   const handleOpenImg = (id) => {
     setIsActive(id);
   }

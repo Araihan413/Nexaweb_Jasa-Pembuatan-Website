@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Konsultasi Awal",
+      "titleDescription": "Diskusikan Kebutuhan Anda",
+      "description": "Ceritakan tujuan, fitur yang diinginkan, dan gaya desain yang sesuai dengan brand Anda."
+    },
+    {
+      "id": "2",
+      "title": "Penawaran dan Kesepakatan",
+      "titleDescription": "Pilih Paket dan Mulai Proyek",
+      "description": "Kami akan memberikan penawaran yang mencakup detail layanan, waktu pengerjaan, dan harga. Setelah disepakati, lakukan pembayaran awal untuk memulai proyek."
+    },
+    {
+      "id": "3",
+      "title": "Pembangunan Website",
+      "titleDescription": "Website Dibangun Sesuai Kebutuhan",
+      "description": "Kami akan mulai membangun website anda dan juga mengembangkan website dengan fitur dan fungsi sesuai kebutuhan."
+    },
+    {
+      "id": "4",
+      "title": "Revisi dan Pengujian",
+      "titleDescription": "Pastikan Website Sempurna",
+      "description": "Anda dapat memberikan masukan untuk revisi. Kami juga melakukan pengujian untuk memastikan semua fitur berfungsi dengan baik."
+    },
+    {
+      "id": "5",
+      "title": "Peluncuran Website",
+      "titleDescription": "Online dan Siap Digunakan",
+      "description": "Website siap untuk kami kirimkan ke laptop anda. Kami juga siap membantu mengunggah website Anda ke domain dan hosting."
+    }
+  ]
+}

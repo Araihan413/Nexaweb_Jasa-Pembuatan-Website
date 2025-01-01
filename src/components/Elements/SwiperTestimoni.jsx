@@ -6,8 +6,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
+const listTestimoni = dataTestimoni.data;
 const SwiperTestimoni = () => {
-  const listTestimoni = dataTestimoni.data;
   return (
     <>
       <Swiper

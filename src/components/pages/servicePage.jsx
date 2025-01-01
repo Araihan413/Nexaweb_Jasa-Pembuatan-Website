@@ -1,21 +1,22 @@
 import NavbarTop from '../Fragments/NavbarTop';
 import Service from '../Fragments/Service';
-import webBisnis from '../../assets/image/web-bisnis.png';
 import OfferServices from '../Elements/OfferServices';
 import Footer from '../Fragments/Footer';
 import dataOfferServices from '../dataContent/fiturLayanan.json'
 import TypeOfWebsiteService from '../Elements/TypeOfWebsiteService';
+import dataTypeWebsite from '../dataContent/jenisWebsite.json'
 
+const listDataTypeWebsite = dataTypeWebsite.data
+const listOfferServices = dataOfferServices.data
 const ServicePage = () => {
-  const listOfferServices = dataOfferServices.data
   return (
     <>
       <div>
         <header>
           <NavbarTop />
         </header>
-        <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
-          <section className="pb-20">
+        <main className=" py-16 px-5 lg:px-24 md:px-14 pt-28 md:pt-32 lg:pt-28 bg-kotak-kotak">
+          <section className="pb-20 ">
             <div className="w-full md:w-10/12 lg:w-7/12 ">
               <h1 className="font-judul text-5xl md:text-6xl font-bold leading-tight text-[#414040]">Pelayanan Jasa Pembuatan Website di Nexaweb</h1>
               <p className="font-paragraf text-lg font-semibold pt-4">
@@ -35,48 +36,18 @@ const ServicePage = () => {
               ))}
             </div>
           </section>
-          <section className="pb-20">
-            <div className="pb-20">
+          <section className='pb-20'>
+            <Service />
+          </section>
+          <section className="pb-10">
+            <div className="pb-8">
               <h1 className="font-judul text-4xl font-semibold">Jenis Website yang Kami Sediakan</h1>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <TypeOfWebsiteService />
-              {/* <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
-                <div className="top-0 left-0 w-80 -z-10">
-                  <img className="" src={webBisnis} alt="foto design web bisnis" />
-                </div>
-                <div className="absolute w-full h-full flex justify-center items-end pb-8 bg-gradient-transparant">
-                  <h1 className="font-judul text-2xl font-semibold text-[#229989]">Website Bisnis</h1>
-                </div>
-              </div>
-              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
-                <div className="top-0 left-0 w-80 -z-10">
-                  <img className="" src={webBisnis} alt="foto design web bisnis" />
-                </div>
-                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
-                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Website Portofolio</h1>
-                </div>
-              </div>
-              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
-                <div className="top-0 left-0 w-80 -z-10">
-                  <img className="" src={webBisnis} alt="foto design web bisnis" />
-                </div>
-                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
-                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Website Blog Personal</h1>
-                </div>
-              </div>
-              <div className="flex border-2 shadow-lg rounded-2xl w-max overflow-hidden relative">
-                <div className="top-0 left-0 w-80 -z-10">
-                  <img className="" src={webBisnis} alt="foto design web bisnis" />
-                </div>
-                <div className="absolute w-full h-full flex justify-center items-end pb-10 bg-gradient-transparant">
-                  <h1 className="font-judul text-2xl font-semibold text-[#414040]">Custom Website</h1>
-                </div>
-              </div> */}
+            <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
+              {listDataTypeWebsite.map((item) => (
+                <TypeOfWebsiteService key={item.id} title={item.title} description={item.description} icon={item.icon} />
+              ))}
             </div>
-          </section>
-          <section>
-            <Service />
           </section>
         </main>
         <section className="px-5 md:px-10 lg:px-24 pt-16 pb-8 bg-slate-700">

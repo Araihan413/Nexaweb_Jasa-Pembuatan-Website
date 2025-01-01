@@ -47,7 +47,7 @@ Jika Anda tidak yakin memilih paket, hubungi kami untuk konsultasi gratis. Kami 
         <header>
           <NavbarTop />
         </header>
-        <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28">
+        <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28 bg-kotak-kotak">
           <section>
             <div className="w-full md:w-10/12 lg:w-7/12  pb-10">
               <h1 className="font-judul text-6xl font-bold leading-tight text-[#414040]">Cara Order Website di Nexaweb</h1>
