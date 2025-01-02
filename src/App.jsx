@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full relative overflow-x-hidden">
+      <div className="w-full relative overflow-hidden">
         <motion.div
           initial={{ opacity: 0, display: 'none' }}
           animate={{ display: 'block', opacity: 1, transition: { duration: 1, delay: 1.5 } }}

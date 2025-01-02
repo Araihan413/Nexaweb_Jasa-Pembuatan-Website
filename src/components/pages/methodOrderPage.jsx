@@ -1,46 +1,13 @@
 import { motion } from 'framer-motion';
 import NavbarTop from '../Fragments/NavbarTop';
-import ProcessOrder from '../Fragments/ProcessOrder';
+import Button from '../Elements/Button';
 import Footer from '../Fragments/Footer';
-import { LineProcess, LineProcessStart, LineProcessEnd } from '../Elements/LineProcess';
+import { WebsiteOrderFlow, TopConnectingLine, BottomConnectingLine } from '../Elements/WebsiteOrderFlow';
+import dataProcessCreatingWebsite from '../dataContent/prosesBuatWebsite.json';
+const listProcessCreatingWebsite = dataProcessCreatingWebsite.data;
+const whatsappLink = 'https://wa.me/628113734445'
 
 const MethodOrderPage = () => {
-  const steps = [
-    {
-      id: '1',
-      title: 'Pilih Paket Website',
-      titleDescription: 'Tentukan Paket yang Sesuai Kebutuhan Anda',
-      description: `Kunjungi halaman Harga dan Paket untuk melihat pilihan paket kami:
-- Basic: Untuk website sederhana seperti profil usaha.
-- Standard: Cocok untuk website bisnis atau portofolio profesional.
-- Premium: Paket lengkap dengan fitur custom, ideal untuk toko online.
-Jika Anda tidak yakin memilih paket, hubungi kami untuk konsultasi gratis. Kami akan membantu Anda memilih paket yang sesuai dengan kebutuhan Anda.`,
-    },
-    {
-      id: '2',
-      title: 'Penawaran dan Kesepakatan',
-      titleDescription: 'Pilih Paket dan Mulai Proyek',
-      description: 'Kami akan memberikan penawaran yang mencakup detail layanan, waktu pengerjaan, dan harga. Setelah disepakati, lakukan pembayaran awal untuk memulai proyek.',
-    },
-    {
-      id: '3',
-      title: 'Desain dan Pengembangan',
-      titleDescription: 'Website Dibangun Sesuai Kebutuhan',
-      description: 'Tim kami akan membuat desain awal "mockup" untuk persetujuan Anda, lalu mengembangkan website dengan fitur dan fungsi yang lengkap.',
-    },
-    {
-      id: '4',
-      title: 'Revisi dan Pengujian',
-      titleDescription: 'Pastikan Website Sempurna',
-      description: 'Anda dapat memberikan masukan untuk revisi. Kami juga melakukan pengujian untuk memastikan semua fitur berfungsi dengan baik.',
-    },
-    {
-      id: 5,
-      title: 'Peluncuran Website',
-      titleDescription: 'Online dan Siap Digunakan',
-      description: 'Kami membantu mengunggah website Anda ke domain dan hosting. Website Anda kini siap digunakan, dan kami menyediakan dukungan teknis pasca peluncuran.',
-    },
-  ];
   return (
     <>
       <div>
@@ -51,16 +18,22 @@ Jika Anda tidak yakin memilih paket, hubungi kami untuk konsultasi gratis. Kami 
           <section>
             <div className="w-full md:w-10/12 lg:w-7/12  pb-10">
               <h1 className="font-judul text-6xl font-bold leading-tight text-[#414040]">Cara Order Website di Nexaweb</h1>
-              <p className="font-paragraf pt-4">
+              <p className="font-paragraf pt-4 font-semibold text-lg">
                 Kami membuat proses pemesanan website mudah dan jelas, sehingga Anda tidak perlu bingung. Ikuti langkah-langkah berikut untuk memesan paket website di Nexaweb hingga website Anda dapat diakses di internet:
               </p>
             </div>
             <div className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
-              <LineProcessStart />
-              {steps.map((step) => {
-                return <LineProcess key={step.id} number={step.id} title={step.title} titleDescription={step.titleDescription} description={step.description} />;
+              <TopConnectingLine />
+              {listProcessCreatingWebsite.map((item, index) => {
+                return <WebsiteOrderFlow key={item.id} number={item.id} title={item.title} titleDescription={item.titleDescription} description={item.description} order={(index + 1) % 2 === 0 ? ['md:order-3', 'md:order-1'] : ['md:order-1', 'md:order-3']} icon={item.icon} />;
               })}
-              <LineProcessEnd />
+              <BottomConnectingLine />
+            </div>
+          </section>
+          <section className='py-16'>
+            <h1 className="font-judul text-4xl font-semibold mb-2 text-center">Ayo Hubungi dan Pesan Sekarang!</h1>
+            <div className='flex justify-center py-4'>
+              <Button onClick={() => { window.open(whatsappLink, "_blank", "noopener,noreferrer"); }} warna='bg-green-400' style='text-white'>Hubungi Kami</Button>
             </div>
           </section>
         </main>

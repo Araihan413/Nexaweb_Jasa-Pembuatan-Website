@@ -1,7 +1,7 @@
 import Button from '../Elements/Button';
 import { delay, motion } from 'framer-motion';
 import TextChange from '../Elements/textChange';
-
+const whatsappLink = 'https://wa.me/628113734445'
 const Heading = () => {
   const varian = {
     hidden: { opacity: 0, y: 50 },
@@ -44,12 +44,12 @@ const Heading = () => {
         </article>
         <div className="flex gap-4 md:gap-8">
           <motion.div animate={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: -100 }}>
-            <Button warna="bg-gradient-sekunder" style="text-[#474747] w-40">
+            <Button onClick={() => { window.open(whatsappLink, "_blank", "noopener,noreferrer"); }} warna="bg-gradient-sekunder" style="text-[#474747] w-40">
               Pesan Sekarang
             </Button>
           </motion.div>
           <motion.div animate={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: 1.2 } }} initial={{ opacity: 0, x: 100 }}>
-            <Button warna="bg-[#ebf4f5]" style="text-[#474747] w-40">
+            <Button onClick={() => { window.open('/layanan', "_self", "noopener,noreferrer"); }} warna="bg-[#ebf4f5]" style="text-[#474747] w-40">
               Lihat Layanan
             </Button>
           </motion.div>

@@ -2,33 +2,52 @@
   "data": [
     {
       "id": "1",
-      "title": "Konsultasi Awal",
-      "titleDescription": "Diskusikan Kebutuhan Anda",
-      "description": "Ceritakan tujuan, fitur yang diinginkan, dan gaya desain yang sesuai dengan brand Anda."
+      "icon": "./src/assets/icons/layanan-website.png",
+      "title": "Lihat Penawaran",
+      "titleDescription": "Pelayanan Yang Disediakan",
+      "description": "Anda bisa melihat-lihat penawaran dan pelayanan jasa kami dengan cermat agar tidak salah dalam memilih penyedia layanan yang sesuai dengan kebutuhan."
     },
     {
       "id": "2",
-      "title": "Penawaran dan Kesepakatan",
-      "titleDescription": "Pilih Paket dan Mulai Proyek",
-      "description": "Kami akan memberikan penawaran yang mencakup detail layanan, waktu pengerjaan, dan harga. Setelah disepakati, lakukan pembayaran awal untuk memulai proyek."
+      "icon": "./src/assets/icons/hubungi-kami.png",
+      "title": "Hubungi Kami",
+      "titleDescription": "Hubungi Jika Tertarik",
+      "description": "Setelah melihat penawaran dan sesuai dengan kebutuhan Anda, Anda dapat menghubungi kami melalui kontak yang tersedia untuk pemesanan atau menanyai lebih lanjut."
     },
     {
       "id": "3",
-      "title": "Pembangunan Website",
-      "titleDescription": "Website Dibangun Sesuai Kebutuhan",
-      "description": "Kami akan mulai membangun website anda dan juga mengembangkan website dengan fitur dan fungsi sesuai kebutuhan."
+      "icon": "./src/assets/icons/design-dan-fitur.png",
+      "title": "Design dan Fitur",
+      "titleDescription": "Sebutkan Kebutuhan Anda",
+      "description": "Setelah pemesanan jasa, Anda dapat memberikan informasi tentang kebutuhan dan fitur website Anda serta referensi design yang Anda inginkan."
     },
     {
       "id": "4",
-      "title": "Revisi dan Pengujian",
-      "titleDescription": "Pastikan Website Sempurna",
-      "description": "Anda dapat memberikan masukan untuk revisi. Kami juga melakukan pengujian untuk memastikan semua fitur berfungsi dengan baik."
+      "icon": "./src/assets/icons/kesepakatan-harga.png",
+      "title": "Kesepakatan Harga",
+      "titleDescription": "Penetapan Harga jasa",
+      "description": "Untuk harga kami akan menyesuaikan sesuai dengan jumlah halaman dan fitur yang Anda inginkan. Anda juga dapat langsung melakukan pembayaran DP untuk pembuatan website."
     },
     {
       "id": "5",
-      "title": "Peluncuran Website",
-      "titleDescription": "Online dan Siap Digunakan",
-      "description": "Website siap untuk kami kirimkan ke laptop anda. Kami juga siap membantu mengunggah website Anda ke domain dan hosting."
+      "icon": "./src/assets/icons/pembuatan-website.png",
+      "title": "Perakitan Website",
+      "titleDescription": "Pengerjaan Website",
+      "description": "Website akan dikerjakan setelah kebutuhan telah lengkap dan kami akan mengusahakan agar pengerjaan website tidak terlalu memakan waktu."
+    },
+    {
+      "id": "6",
+      "icon": "./src/assets/icons/revisi-design.png",
+      "title": "Persetujuan dan Revisi",
+      "titleDescription": "Penyesuaian Design Website",
+      "description": "Kami akan mengirimkan foto website yang sudah siap digunakan kepada Anda. Anda dapat memberikan revisi sesuai dengan selera dan kebutuhan Anda."
+    },
+    {
+      "id": "7",
+      "icon": "./src/assets/icons/kirim-website.png",
+      "title": "Pengiriman dan Pelunasan",
+      "titleDescription": "Website Siap Digunakan",
+      "description": "Setelah Penyesuaian design dan fitur website, website akan kami kirimkan kepada Anda. Setelah Anda melunasi pembayaran, website akan siap digunakan. Anda dapat melakukan revisi setelah pengiriman dengan jumlah revisi yang telah ditentukan."
     }
   ]
 }

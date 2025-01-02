@@ -14,7 +14,7 @@ const Question = () => {
         <motion.div variants={inView} whileInView="view" initial="hidden" className="text-center pb-20">
           <h1 className="font-judul text-4xl font-semibold">Pertanyaan yang Mungkin Dikepokan</h1>
         </motion.div>
-        <div className="lg:w-5/6 w-full bg-slate-200/20 backdrop-blur-md p-2 md:p-5">
+        <div className="lg:w-5/6 w-full bg-slate-200/20 backdrop-blur p-2 md:p-5">
 
           {listQuestion.map((item, index) => {
             return <FAQItem key={index} question={item.question} answer={item.answer} />

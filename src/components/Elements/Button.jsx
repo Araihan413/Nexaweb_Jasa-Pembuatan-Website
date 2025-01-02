@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion';
 
 const Button = (props) => {
-  const { warna, children, style = '' } = props;
+  const { type = 'button', warna, children, style = '', onClick = () => { } } = props;
 
   return (
     <>
-      <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} className="w-max h-max">
-        <button className={`p-4 py-3 ${warna} ${style} rounded-xl font-semibold shadow-md`}>{children}</button>
-      </motion.div>
+      <div className="w-full flex justify-center items-center h-max">
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} type={type} onClick={() => onClick()} className={`p-4 py-3 ${warna} ${style} rounded-xl font-semibold shadow-md`}>{children}</motion.button>
+      </div>
     </>
   );
 };

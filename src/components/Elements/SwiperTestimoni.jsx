@@ -43,7 +43,7 @@ const SwiperTestimoni = () => {
 
         {listTestimoni.map((item) => {
           return (<SwiperSlide key={item.id} className="py-2">
-            <div className="bg-slate-200/20 backdrop-blur-md shadow-box-glass rounded-lg h-full p-3">
+            <div className="bg-slate-200/20 backdrop-blur shadow-box-glass rounded-lg h-full p-3">
               <div className="flex gap-4 justify-start items-center pb-8">
                 <img className="rounded-full w-10 h-10 border-2" src={item.src} alt="profil 1" />
                 <div>
