@@ -151,19 +151,19 @@ const Footer = () => {
             <h1 className="font-SubJudul text-xl font-semibold pb-2">Kunjungi Artikel Luar</h1>
             <ul className="font-Paragraf">
               <li>
-                <a className="flex gap-2 p-2 pl-0" href="">
+                <a target='_blank' className="flex gap-2 p-2 pl-0" href="https://www.jurnal.id/id/blog/2017-pentingnya-website-untuk-perkembangan-bisnis-anda/">
                   <div className="pt-1">
                     <IoMdArrowDropright />
                   </div>
-                  <p>Kenapa Kita Harus Mempunyai Website Untuk Bisnis Kita?</p>
+                  <p>Pentingnya Website untuk Perkembangan Bisnis Anda</p>
                 </a>
               </li>
               <li>
-                <a className="flex gap-2  p-2 pl-0" href="">
+                <a target='_blank' className="flex gap-2  p-2 pl-0" href="https://asliri.id/blog/apakah-perlu-menerapkan-digitalisasi-dalam-bisnis/">
                   <div className="pt-1">
                     <IoMdArrowDropright />
                   </div>
-                  <p>Apakah Penting Mendigitalisasi Bisnis Kita?</p>
+                  <p>Apakah perlu menerapkan digitalisasi dalam bisnis?</p>
                 </a>
               </li>
             </ul>

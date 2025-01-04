@@ -10,18 +10,18 @@ const Portofolio = () => {
   const handleOpenImg = (id) => {
     setIsActive(id);
   }
-  const inView = {
-    view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, y: 50 },
+  const fromButton = {
+    isView: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    isHidden: { opacity: 0, y: 100 },
   };
   return (
     <>
       <div>
         <div className="pb-8">
-          <motion.h1 variants={inView} whileInView="view" initial="hidden" className="font-judul text-4xl font-semibold mb-2">
+          <motion.h1 variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-judul text-4xl font-semibold mb-2">
             Projek Yang Pernah Dibuat
           </motion.h1>
-          <motion.p variants={inView} whileInView="view" initial="hidden" transition={{ delay: 0.3 }} className="font-paragraf max-w-[600px]">
+          <motion.p variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} transition={{ delay: 0.3 }} className="font-paragraf max-w-[600px]">
             Berikut adalah contoh proyek yang pernah dibuat. proyek ini dirancang agar responsif dan user friendly.
           </motion.p>
         </div>

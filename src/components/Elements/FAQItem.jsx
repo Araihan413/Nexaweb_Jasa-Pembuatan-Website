@@ -7,7 +7,10 @@ import { useState } from 'react';
 const FAQItem = (props) => {
   const { question, answer } = props
   const [open, setOpen] = useState(false);
-
+  const fromRight = {
+    isView: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+    isHidden: { opacity: 0, x: 50 },
+  };
   return (
     <>
       <div className="pb-4 border-b-2">
@@ -16,7 +19,7 @@ const FAQItem = (props) => {
             <div className="mr-4">
               <FaQuestionCircle />
             </div>
-            <h1 className="font-subJudul font-semibold text-xl pr-8 leading-none">{question}</h1>
+            <motion.h1 variants={fromRight} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-subJudul font-semibold text-xl pr-8 leading-none">{question}</motion.h1>
           </div>
           <div>{open ? <IoIosArrowUp /> : <IoIosArrowDown />}</div>
         </div>

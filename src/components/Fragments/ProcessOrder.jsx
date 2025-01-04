@@ -5,19 +5,19 @@ import dataWebsiteCreation from '../dataContent/prosesBuatWebsite.json';
 const steps = dataWebsiteCreation.data;
 
 const ProcessOrder = () => {
-  const inView = {
-    view: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, y: 100 },
+  const fromButton = {
+    isView: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    isHidden: { opacity: 0, y: 50 },
   };
 
   return (
     <>
       <div>
         <div className="pb-12 flex flex-col items-center">
-          <motion.h1 variants={inView} whileInView="view" initial="hidden" className="font-judul text-4xl font-semibold mb-2 text-center">
+          <motion.h1 variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-judul text-4xl font-semibold mb-2 text-center">
             Proses Pembuatan Website Di Nexaweb
           </motion.h1>
-          <motion.p variants={inView} whileInView="view" initial="hidden" className="font-paragraf max-w-[600px] text-center">
+          <motion.p variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-paragraf max-w-[600px] text-center">
             Dalam pengerjaan website di Nexaweb kami akan melakukan tahapan yang transparan agar memudahkan klien mengetahui apa yang sedang dikerjakan.
           </motion.p>
         </div>

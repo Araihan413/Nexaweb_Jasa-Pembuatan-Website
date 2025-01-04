@@ -1,9 +1,14 @@
-
+import { motion } from 'framer-motion'
 const TypeOfWebsiteService = (props) => {
   const { title, description, icon } = props
+
+  const fromButton = {
+    isView: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    isHidden: { opacity: 0, y: 100 },
+  };
   return (
     <>
-      <div className='bg-slate-200 p-2 rounded-xl shadow-lg'>
+      <motion.div variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className='bg-slate-200 p-2 rounded-xl shadow-lg'>
         <div className='flex gap-5 pl-28 pb-2 pt-2'>
           <div className='w-5 h-5 rounded-full bg-[#16C47F]'></div>
           <div className='w-5 h-5 rounded-full bg-[#FFD65A]'></div>
@@ -21,7 +26,7 @@ const TypeOfWebsiteService = (props) => {
           </div>
 
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }

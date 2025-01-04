@@ -3,9 +3,9 @@ import dataContent from '../dataContent/keunggulan.json'
 
 const dataCard = dataContent.data
 const CardSuperior = () => {
-  const inView = {
-    view: { y: 0, transition: { duration: 0.5 } },
-    hidden: { y: 100 },
+  const fromButton = {
+    isView: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    isHidden: { opacity: 0, y: 100 },
   };
 
   return (
@@ -14,7 +14,7 @@ const CardSuperior = () => {
         {dataCard &&
           dataCard.map((item, index) => {
             return (
-              <motion.div variants={inView} whileInView="view" initial="hidden" className="lg:col-span-1  h-full w-full max-w-[540px] rounded-xl shadow-box-glass overflow-hidden" key={index + 1}>
+              <motion.div variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="lg:col-span-1  h-full w-full max-w-[540px] rounded-xl shadow-box-glass overflow-hidden" key={index + 1}>
                 <div className="backdrop-blur bg-slate-200/20 p-4 h-full w-full">
                   <div className="flex flex-col">
                     <img className="w-20 h-20 mb-3" src={item.src} alt={item.alt} />

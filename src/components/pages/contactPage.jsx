@@ -1,12 +1,13 @@
-import { motion } from 'framer-motion';
 import NavbarTop from '../Fragments/NavbarTop';
 import Contact from '../Fragments/Contact';
 import Footer from '../Fragments/Footer';
+import ScrollToTop from '../Elements/ScrollToTop';
 
 const ContactPage = () => {
   return (
     <>
       <div className="">
+        <ScrollToTop />
         <header>
           <NavbarTop />
         </header>

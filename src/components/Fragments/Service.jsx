@@ -9,7 +9,7 @@ const Service = () => {
   return (
     <>
       <div className='py-10'>
-        <motion.div variants={inView} whileInView="view" initial="hidden" className="mb-8">
+        <motion.div variants={inView} whileInView="view" initial="hidden" viewport={{ once: true }} className="mb-8 ">
           <h1 className="font-judul text-4xl font-semibold text-center">Harga yang Fleksibel </h1>
         </motion.div>
         <div className="w-full">
