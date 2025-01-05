@@ -22,12 +22,12 @@ const Portofolio = () => {
             Projek Yang Pernah Dibuat
           </motion.h1>
           <motion.p variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} transition={{ delay: 0.3 }} className="font-paragraf max-w-[600px]">
-            Berikut adalah contoh proyek yang pernah dibuat. proyek ini dirancang agar responsif dan user friendly.
+            Berikut adalah contoh projek yang pernah dibuat. proyek ini dirancang agar responsif dan user friendly.
           </motion.p>
         </div>
-        <motion.div initial={{ opacity: 1 }} whileInView={{ opacity: 1, transition: { duration: 2 } }} className="flex gap-2 gap-y-10 flex-wrap justify-center items-center pt-4">
+        <motion.div initial={{ opacity: 1 }} whileInView={{ opacity: 1, transition: { duration: 2 } }} className="flex flex-col lg:flex-row gap-2 lg:gap-y-10 flex-wrap justify-center items-center pt-4">
           {dataContent.map((items) => {
-            return <CardPortofolio onClick={handleOpenImg} id={items.id} src={items.src} isActive={isActive == items.id} key={items.id} description={items.benner} />
+            return <CardPortofolio onClick={handleOpenImg} id={items.id} src={items.src} isActive={isActive == items.id} key={items.id} benner={items.benner} description={items.description} title={items.title} />
           })}
         </motion.div>
       </div>

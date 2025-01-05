@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <>
-      <motion.div className='lg:pt-16' ref={ref} animate={isInView ? "isView" : {}} initial="isHidden" variants={containerVariants}>
+      <motion.div className='md:pt-16' ref={ref} animate={isInView ? "isView" : {}} initial="isHidden" variants={containerVariants}>
         <div className="flex flex-col  gap-10 md:gap-0 lg:flex-row justify-between items-center relative mb-20 md:mb-36">
           <div>
             <motion.h1 variants={fromLeft} className="text-4xl font-judul font-semibold mb-8">

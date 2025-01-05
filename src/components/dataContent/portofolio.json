@@ -2,31 +2,24 @@
     "data": [
         {
             "id": 1,
-            "benner": "Portofolio 1",
+            "benner": "HALAMAN 1",
             "src": "/src/assets/image/img-portofolio-1.png",
-            "title": "Portofolio 1",
-            "description": "deskripsi"
+            "title": "Halaman Character",
+            "description": "Website Yang Berisi Informasi Seputar Valorant"
         },
         {
             "id": 2,
-            "benner": "Portofolio 2",
+            "benner": "HALAMAN 2",
             "src": "/src/assets/image/img-portofolio-2.png",
-            "title": "Portofolio 1",
-            "description": "deskripsi"
+            "title": "Halaman Weapon",
+            "description": "Website Yang Berisi Informasi Seputar Valorant"
         },
         {
             "id": 3,
-            "benner": "Portofolio 3",
+            "benner": "HALAMAN 3",
             "src": "/src/assets/image/img-portofolio-3.png",
-            "title": "Portofolio 3",
-            "description": "deskripsi"
-        },
-        {
-            "id": 4,
-            "benner": "Portofolio 4",
-            "src": "/src/assets/image/img-portofolio-3.png",
-            "title": "Portofolio 1",
-            "description": "deskripsi"
+            "title": "Halaman Map",
+            "description": "Website Yang Berisi Informasi Seputar Valorant"
         }
     ]
 }
