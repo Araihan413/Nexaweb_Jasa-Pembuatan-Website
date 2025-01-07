@@ -7,6 +7,7 @@ import dataProcessCreatingWebsite from '../dataContent/prosesBuatWebsite.json';
 const listProcessCreatingWebsite = dataProcessCreatingWebsite.data;
 const whatsappLink = 'https://wa.me/628113734445'
 import ScrollToTop from '../Elements/ScrollToTop';
+import figureHowToOrder from '../../assets/figure/order-figure.svg'
 
 const MethodOrderPage = () => {
   const fromRight = {
@@ -20,19 +21,25 @@ const MethodOrderPage = () => {
   };
   return (
     <>
-      <div>
+      <div id='order'>
         <ScrollToTop />
         <header>
           <NavbarTop />
         </header>
         <main className="px-5 lg:px-24 md:px-14 py-16 pt-28 md:pt-32 lg:pt-28 bg-kotak-kotak">
-          <section>
-            <div className="w-full md:w-10/12 lg:w-7/12  pb-10">
-              <motion.h1 variants={fromRight} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-judul text-6xl font-bold leading-tight text-[#414040]">Cara Order Website di Nexaweb</motion.h1>
+          <section className='lg:grid lg:grid-cols-2'>
+            <div className="w-full md:w-10/12 lg:w-full lg:col-span-1 pb-10">
+              <motion.h1 variants={fromRight} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-judul text-5xl md:text-6xl font-bold leading-tight text-[#414040]">Cara Order Website di Nexaweb</motion.h1>
               <motion.p variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="font-paragraf pt-4 font-semibold text-lg">
                 Kami membuat proses pemesanan website mudah dan jelas, sehingga Anda tidak perlu bingung. Ikuti langkah-langkah berikut untuk memesan paket website di Nexaweb hingga website Anda dapat diakses di internet:
               </motion.p>
             </div>
+
+            <motion.div variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className='max-w-96 w-full lg:col-span-1 lg:place-self-center hidden lg:block'>
+              <img src={figureHowToOrder} alt="gambar figure cara order" />
+            </motion.div>
+          </section>
+          <section>
             <div className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
               <TopConnectingLine />
               {listProcessCreatingWebsite.map((item, index) => {

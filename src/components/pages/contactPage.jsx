@@ -6,7 +6,7 @@ import ScrollToTop from '../Elements/ScrollToTop';
 const ContactPage = () => {
   return (
     <>
-      <div className="">
+      <div id='contact'>
         <ScrollToTop />
         <header>
           <NavbarTop />

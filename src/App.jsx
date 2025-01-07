@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full relative overflow-hidden">
+      <div className="w-full relative overflow-hidden scroll-smooth">
         <AnimatePointer />
         <RouterProvider router={router} />
         <ProgresBar />

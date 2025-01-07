@@ -2,14 +2,26 @@ import WindowMap from '../Elements/WindowMap';
 import Logo from '../Elements/Logo';
 import { GrMap } from 'react-icons/gr';
 import { IoMdArrowDropright } from 'react-icons/io';
-import { FaLinkedin, FaInstagramSquare, FaFacebook, FaRegCopyright } from 'react-icons/fa';
+import { FaLinkedin, FaInstagramSquare, FaRegCopyright } from 'react-icons/fa';
 import { AiFillTikTok } from 'react-icons/ai';
 const whatsappLink = 'https://wa.me/628113734445'
 const mapsLink = 'https://maps.app.goo.gl/CLQ1591wTvn4Js2JA'
 const mailLink = "mailto:arraihan0104@gmail.com"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (id) => {
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 text-white">
@@ -43,42 +55,32 @@ const Footer = () => {
             <h1 className="font-SubJudul font-semibold text-xl pb-4">Navigasi Menu</h1>
             <ul className="font-Paragraf">
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/">
+                <Link onClick={() => handleNavigation('home')} className="flex gap-2 leading-none p-2 pl-0" to="/">
                   <IoMdArrowDropright /> Beranda
                 </Link>
               </li>
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/">
+                <Link onClick={() => handleNavigation('about')} className="flex gap-2 leading-none p-2 pl-0" to="/">
                   <IoMdArrowDropright /> Tentang Kami
                 </Link>
               </li>
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/layanan">
+                <Link onClick={() => handleNavigation('services')} className="flex gap-2 leading-none p-2 pl-0" to="/layanan">
                   <IoMdArrowDropright /> Layanan
                 </Link>
               </li>
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/cara order">
-                  <IoMdArrowDropright /> Proses Order
+                <Link onClick={() => handleNavigation('order')} className="flex gap-2 leading-none p-2 pl-0" to="/cara order">
+                  <IoMdArrowDropright /> Cara Order
                 </Link>
               </li>
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/">
-                  <IoMdArrowDropright /> Portofolio
-                </Link>
-              </li>
-              <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/">
-                  <IoMdArrowDropright /> Testimoni
-                </Link>
-              </li>
-              <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/">
+                <Link onClick={() => handleNavigation('faq')} className="flex gap-2 leading-none p-2 pl-0" to="/">
                   <IoMdArrowDropright /> Pertanyaan
                 </Link>
               </li>
               <li>
-                <Link className="flex gap-2 leading-none p-2 pl-0" to="/contact">
+                <Link onClick={() => handleNavigation('contact')} className="flex gap-2 leading-none p-2 pl-0" to="/contact">
                   <IoMdArrowDropright /> Kontak
                 </Link>
               </li>
@@ -106,17 +108,17 @@ const Footer = () => {
             <h1 className="font-SubJudul text-xl font-semibold pb-4">Ikuti Sosmed</h1>
             <div className="flex flex-col gap-4">
               <h3 className="font-semibold">
-                <a href="">
+                <a target='_blank' href="https://www.linkedin.com/in/ahmad-raihan-08355724b/">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
                       <FaLinkedin />
                     </p>
-                    Linkin
+                    LinkedIn
                   </div>
                 </a>
               </h3>
               <h3 className="font-semibold">
-                <a href="">
+                <a target='_blank' href="https://www.instagram.com/ahmd_arrai?igsh=bDh6MHBya2lnZ3M2">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
                       <FaInstagramSquare />
@@ -126,17 +128,7 @@ const Footer = () => {
                 </a>
               </h3>
               <h3 className="font-semibold">
-                <a href="">
-                  <div className="font-Paragraf flex gap-2">
-                    <p className="text-2xl">
-                      <FaFacebook />
-                    </p>
-                    Facebook
-                  </div>
-                </a>
-              </h3>
-              <h3 className="font-semibold">
-                <a href="">
+                <a target='_blank' href="https://www.tiktok.com/@mafiismun?_t=ZS-8sriQisk8Wt&_r=1">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
                       <AiFillTikTok />
