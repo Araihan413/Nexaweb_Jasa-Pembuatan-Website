@@ -9,7 +9,15 @@ const whatsappLink = 'https://wa.me/628113734445'
 import ScrollToTop from '../Elements/ScrollToTop';
 import figureHowToOrder from '../../assets/figure/order-figure.svg'
 import { useEffect } from 'react';
+import iconLayananWebsite from '../../assets/icons/layanan-website.png'
+import iconHubungiKami from '../../assets/icons/hubungi-kami.png'
+import iconDesignDanFitur from '../../assets/icons/design-dan-fitur.png'
+import iconKesepakatanHarga from '../../assets/icons/kesepakatan-harga.png'
+import iconPembuatanWebsite from '../../assets/icons/pembuatan-website.png'
+import iconRevisiDesign from '../../assets/icons/revisi-design.png'
+import iconPengirimanWebsite from '../../assets/icons/kirim-website.png'
 
+const iconMethodOrder = [iconLayananWebsite, iconHubungiKami, iconDesignDanFitur, iconKesepakatanHarga, iconPembuatanWebsite, iconRevisiDesign, iconPengirimanWebsite]
 const MethodOrderPage = () => {
   useEffect(() => {
     document.title = "Cara Order - Jasa Nexaweb";
@@ -48,7 +56,7 @@ const MethodOrderPage = () => {
             <div className="flex flex-col  justify-start md:justify-normal items-center md:items-stretch">
               <TopConnectingLine />
               {listProcessCreatingWebsite.map((item, index) => {
-                return <WebsiteOrderFlow key={item.id} number={item.id} title={item.title} titleDescription={item.titleDescription} description={item.description} order={(index + 1) % 2 === 0 ? ['md:order-3', 'md:order-1'] : ['md:order-1', 'md:order-3']} icon={item.icon} />;
+                return <WebsiteOrderFlow key={item.id} number={item.id} title={item.title} titleDescription={item.titleDescription} description={item.description} order={(index + 1) % 2 === 0 ? ['md:order-3', 'md:order-1'] : ['md:order-1', 'md:order-3']} icon={iconMethodOrder[index]} />;
               })}
               <BottomConnectingLine />
             </div>

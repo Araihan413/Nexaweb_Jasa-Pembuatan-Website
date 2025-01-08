@@ -39,15 +39,15 @@
       "id": 6,
       "name": "Fahriansyah",
       "src": "/src/assets/image/img-profil-6.jpg",
-      "status": "Pemilik Bisnis Kecil",
-      "description": "Desain website untuk bisnis saya sangat menarik dan profesional. Pelayanan juga sangat ramah."
+      "status": "Mahasiswa",
+      "description": "Desain website untuk tugas saya sangat menarik dan profesional. Pelayanan juga sangat ramah."
     },
     {
       "id": 7,
       "name": "Laila Sari",
       "src": "/src/assets/image/img-profil-7.jpg",
-      "status": "Pemilik Toko Online",
-      "description": "Pelayanan sangat baik, respons cepat, dan desain websitenya membantu toko online saya terlihat lebih profesional."
+      "status": "Mahasiswa",
+      "description": "Pelayanan sangat baik, respons cepat, dan desain websitenya membantu tugas saya terlihat lebih menarik."
     }
   ]
 }

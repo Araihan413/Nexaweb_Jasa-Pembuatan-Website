@@ -3,21 +3,18 @@
         {
             "id": 1,
             "benner": "HALAMAN 1",
-            "src": "/src/assets/image/img-portofolio-1.png",
             "title": "Halaman Character",
             "description": "Website Yang Berisi Informasi Seputar Valorant"
         },
         {
             "id": 2,
             "benner": "HALAMAN 2",
-            "src": "/src/assets/image/img-portofolio-2.png",
             "title": "Halaman Weapon",
             "description": "Website Yang Berisi Informasi Seputar Valorant"
         },
         {
             "id": 3,
             "benner": "HALAMAN 3",
-            "src": "/src/assets/image/img-portofolio-3.png",
             "title": "Halaman Map",
             "description": "Website Yang Berisi Informasi Seputar Valorant"
         }

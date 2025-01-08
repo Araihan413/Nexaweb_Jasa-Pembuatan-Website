@@ -4,29 +4,25 @@
       "id": 1,
       "title": "Website Portofolio",
       "description": "Cocok untuk menampilkan karya, profil, dan perjalanan karier Anda secara profesional.",
-      "src": "portfolio_preview.jpg",
-      "icon": "./src/assets/icons/website-portofolio.png"
+      "src": "portfolio_preview.jpg"
     },
     {
       "id": 2,
       "title": "Website Bisnis",
       "description": "Membantu bisnis Anda tampil lebih modern dan terpercaya di dunia digital.",
-      "src": "business_preview.jpg",
-      "icon": "./src/assets/icons/website-bisnis.png"
+      "src": "business_preview.jpg"
     },
     {
       "id": 3,
       "title": "Website Blog",
       "description": "Ideal untuk berbagi informasi atau berita kepada audiens Anda.",
-      "src": "information_preview.jpg",
-      "icon": "./src/assets/icons/website-informatif.png"
+      "src": "information_preview.jpg"
     },
     {
       "id": 4,
       "title": "Website Tugas Kuliah",
       "description": "Membantu mahasiswa menyelesaikan tugas dengan hasil yang memuaskan dan sesuai instruksi.",
-      "src": "student_project_preview.jpg",
-      "icon": "./src/assets/icons/website-tugas.png"
+      "src": "student_project_preview.jpg"
     }
   ]
 }

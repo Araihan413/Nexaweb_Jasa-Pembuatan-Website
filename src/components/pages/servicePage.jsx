@@ -9,6 +9,19 @@ import { motion } from 'framer-motion'
 import ScrollToTop from '../Elements/ScrollToTop';
 import figureServices from '../../assets/figure/layanan.svg'
 import { useEffect } from 'react';
+import iconResponsiveDesign from '../../assets/icons/responsive-design.png';
+import iconCustomDesign from '../../assets/icons/custom-design.png';
+import iconOptimization from '../../assets/icons/optimization.png';
+import iconAnimate from '../../assets/icons/animate.png';
+import iconCheapPrice from '../../assets/icons/cheap-price.png';
+import iconConsultation from '../../assets/icons/consultation.png';
+import iconWebsitePortfolio from '../../assets/icons/website-portofolio.png';
+import iconWebsiteBisnis from '../../assets/icons/website-bisnis.png';
+import iconWebsiteBlog from '../../assets/icons/website-informatif.png';
+import iconWebsiteTugas from '../../assets/icons/website-tugas.png';
+
+const iconOfferServices = [iconResponsiveDesign, iconCustomDesign, iconOptimization, iconAnimate, iconCheapPrice, iconConsultation];
+const iconTypeWebsite = [iconWebsitePortfolio, iconWebsiteBisnis, iconWebsiteBlog, iconWebsiteTugas];
 
 const listDataTypeWebsite = dataTypeWebsite.data
 const listOfferServices = dataOfferServices.data
@@ -54,7 +67,7 @@ const ServicePage = () => {
             </div>
             <div className="seluruh-card grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
               {listOfferServices.map((item) => (
-                <OfferServices key={item.id} icon={item.icon} title={item.title} description={item.description} style="col-span-1 h-full" />
+                <OfferServices key={item.id} icon={iconOfferServices[item.id - 1]} title={item.title} description={item.description} style="col-span-1 h-full" />
               ))}
             </div>
           </section>
@@ -67,7 +80,7 @@ const ServicePage = () => {
             </div>
             <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
               {listDataTypeWebsite.map((item) => (
-                <TypeOfWebsiteService key={item.id} title={item.title} description={item.description} icon={item.icon} />
+                <TypeOfWebsiteService key={item.id} title={item.title} description={item.description} icon={iconTypeWebsite[item.id - 1]} />
               ))}
             </div>
           </section>

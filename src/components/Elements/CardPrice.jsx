@@ -112,7 +112,7 @@ const CardPrice = () => {
               <motion.p variants={fromRight} whileInView="isView" initial="isHidden" viewport={{ once: true }}>Waktu Pengerjaan: Untuk pengerjaan mendesak, biaya tambahan bisa dikenakan.</motion.p>
             </div>
             <div className='font-paragraf text-center mt-10 flex flex-col justify-center items-center gap-2'>
-              <Button onClick={() => { window.open(whatsappLink, "_blank", "noopener,noreferrer"); }} style='font-judul text-xl font-medium pb-2 text-white' warna='bg-green-400'>Hubungi Sekarang!</Button>
+              <Button onClick={() => { window.open(whatsappLink, "_blank", "noopener,noreferrer"); }} style='font-judul text-xl font-medium pb-2 text-white' warna='bg-green-500'>Hubungi Sekarang!</Button>
               <motion.p variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }}>Konsultasikan kebutuhan Anda <b >GRATIS</b> dan dapatkan penawaran <b>terbaik!</b></motion.p>
             </div>
           </div>

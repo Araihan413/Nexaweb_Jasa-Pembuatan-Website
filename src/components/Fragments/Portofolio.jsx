@@ -27,7 +27,7 @@ const Portofolio = () => {
         </div>
         <motion.div initial={{ opacity: 1 }} whileInView={{ opacity: 1, transition: { duration: 2 } }} className="flex flex-col lg:flex-row gap-2 lg:gap-y-10 flex-wrap justify-center items-center pt-4">
           {dataContent.map((items) => {
-            return <CardPortofolio onClick={handleOpenImg} id={items.id} src={items.src} isActive={isActive == items.id} key={items.id} benner={items.benner} description={items.description} title={items.title} />
+            return <CardPortofolio onClick={handleOpenImg} id={items.id} isActive={isActive == items.id} key={items.id} benner={items.benner} description={items.description} title={items.title} />
           })}
         </motion.div>
       </div>

@@ -162,11 +162,10 @@ const Footer = () => {
           </div>
           <div className='w-full pt-5 mt-5 border-t-2'>
             <h1 className="font-SubJudul text-xl font-semibold pb-2">Credits</h1>
-            <p className='mb-2'>Icons by <a className='text-blue-300' href="https://www.freepik.com" target="_blank" rel="noopener">Freepik</a></p>
-            <p>Online illustrations by <a className='text-blue-300' target='_blank' href="https://storyset.com/online">Storyset</a></p>
+            <p className='mb-2'>Icons by <a className='text-sky-500 italic' href="https://www.freepik.com" target="_blank" rel="noopener">Freepik</a></p>
+            <p>Online illustrations by <a className='text-sky-500 italic' target='_blank' href="https://storyset.com/online">Storyset</a></p>
           </div>
         </div>
-
 
         <div className="col-span-1 md:col-span-3 pt-5 mt-8 border-t-2">
           <p className="font-Paragraf flex items-center justify-center leading-none gap-2">

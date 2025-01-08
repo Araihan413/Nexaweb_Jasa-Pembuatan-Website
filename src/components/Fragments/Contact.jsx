@@ -30,12 +30,12 @@ const Contact = () => {
     })
       .then(
         () => {
-          toast.success('Pesan berhasil dikirim! 😊', { position: 'top-right', autoClose: 8000 });
+          toast.success('Pesan berhasil dikirim! 😊', { position: 'top-right', autoClose: 6000 });
           form.current.reset();
 
         },
         (error) => {
-          toast.error('Gagal mengirim pesan! 😔', { position: 'top-right', autoClose: 8000 });
+          toast.error('Gagal mengirim pesan! 😔', { position: 'top-right', autoClose: 6000 });
           console.log('FAILED...', error.text);
         },
       );

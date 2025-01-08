@@ -1,15 +1,18 @@
 import { motion } from 'framer-motion';
 import { TiInfoOutline } from "react-icons/ti";
+import imgPortofolio1 from '../../assets/image/img-portofolio-1.png';
+import imgPortofolio2 from '../../assets/image/img-portofolio-2.png';
+import imgPortofolio3 from '../../assets/image/img-portofolio-3.png';
 
+const imgPortofolio = [imgPortofolio1, imgPortofolio2, imgPortofolio3];
 const CardPortofolio = (props) => {
-  const { id, src, benner, title, description, isActive, onClick } = props;
-
+  const { id, benner, title, description, isActive, onClick } = props;
   return (
     <>
       <div className='flex w-full lg:w-max '>
         <div className='rounded-lg overflow-hidden cursor-pointer relative border-2 w-full'>
           <motion.figure initial={{ width: 64 }} animate={{ width: isActive ? '100%' : '64px' }} className='w-full lg:w-16 h-80 hidden lg:flex relative'>
-            <img className='w-full h-full object-cover object-center' src={src} alt="portofolio 1" />
+            <img className='w-full h-full object-cover object-center' src={imgPortofolio[id - 1]} alt="portofolio 1" />
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: isActive ? 1 : 0, transition: { duration: 1 } }} className={`${isActive ? 'flex' : 'hidden'} absolute bottom-0 w-full bg-white/50  items-center space-x-5 py-2 pl-5 bg-gradient-transparant`}>
               <div className='w-12 h-12'>
                 <TiInfoOutline className='w-full h-full' />
@@ -21,7 +24,7 @@ const CardPortofolio = (props) => {
             </motion.div>
           </motion.figure>
           <motion.figure initial={{ height: 64 }} animate={{ height: isActive ? '100%' : '64px' }} className='w-full lg:w-16 h-80 lg:hidden flex'>
-            <img className='w-full h-full object-cover object-center' src={src} alt="portofolio 1" />
+            <img className='w-full h-full object-cover object-center' src={imgPortofolio[id - 1]} alt="portofolio 1" />
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: isActive ? 1 : 0, transition: { duration: 1 } }} className={`${isActive ? 'flex' : 'hidden'} absolute bottom-0 w-full bg-white/50 items-center space-x-5 py-2 pl-5 bg-gradient-transparant hidden md:flex`}>
               <div className='w-12 h-12'>
                 <TiInfoOutline className='w-full h-full' />
