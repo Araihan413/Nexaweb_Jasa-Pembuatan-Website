@@ -41,25 +41,25 @@ const NavbarTop = () => {
                 initial={window.innerWidth >= 1024 ? '' : 'hidden'}
                 animate={window.innerWidth >= 1024 ? '' : 'show'}
                 exit={{ opacity: 0, x: 500, transition: { duration: 0.3 } }}
-                className="flex lg:flex w-screen lg:w-max h-screen md:h-max lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-16 lg:p-3 lg:rounded-full lg:bg-gradient-primer bg-slate-700/80 backdrop-blur shadow-xl text-white">
-                <ul className="h-full w-full  flex-col lg:flex-row flex  justify-center items-center gap-6 text-4xl lg:text-xl font-normal font-subJudul  text-white">
-                  <li>
+                className="flex lg:flex w-screen lg:w-max h-screen md:h-[50vh] lg:h-full mt-14 md:mt-16 lg:mt-0 absolute lg:static  py-20 gap-6 lg:px-16 lg:p-3 lg:rounded-full lg:bg-gradient-primer bg-slate-700/80 backdrop-blur shadow-xl text-white">
+                <ul className="h-full w-full flex-col lg:flex-row flex items-center gap-6 text-4xl lg:text-xl font-normal font-subJudul text-white">
+                  <li className='hover:scale-110 hover:-translate-y-1 transition ease-in-out'>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/">
                       Beranda
                     </NavLink>
                   </li>
-                  <li>
+                  <li className='hover:scale-110 hover:-translate-y-1 transition ease-in-out'>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/layanan">
                       Layanan
                     </NavLink>
                   </li>
-                  <li>
+                  <li className='hover:scale-110 hover:-translate-y-1 transition ease-in-out'>
                     <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/cara order">
                       Cara Order
                     </NavLink>
                   </li>
-                  <li>
-                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/contact">
+                  <li className='hover:scale-110 hover:-translate-y-1 transition ease-in-out'>
+                    <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/kontak">
                       Kontak
                     </NavLink>
                   </li>

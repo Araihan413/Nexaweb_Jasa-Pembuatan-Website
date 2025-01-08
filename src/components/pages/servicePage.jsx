@@ -8,10 +8,15 @@ import dataTypeWebsite from '../dataContent/jenisWebsite.json'
 import { motion } from 'framer-motion'
 import ScrollToTop from '../Elements/ScrollToTop';
 import figureServices from '../../assets/figure/layanan.svg'
+import { useEffect } from 'react';
 
 const listDataTypeWebsite = dataTypeWebsite.data
 const listOfferServices = dataOfferServices.data
 const ServicePage = () => {
+  useEffect(() => {
+    document.title = "Layanan - Jasa Nexaweb";
+  }, []);
+
   const fromRight = {
     isView: { opacity: 1, x: 0, transition: { duration: 0.5 } },
     isHidden: { opacity: 0, x: 100 },
@@ -22,7 +27,7 @@ const ServicePage = () => {
     isHidden: { opacity: 0, y: 50 },
   };
   return (
-    // md:w-10/12 lg:w-7/12
+
     <>
       <div id='services'>
         <ScrollToTop />

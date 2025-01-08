@@ -22,7 +22,7 @@ function App() {
       element: <MethodOrderPage />,
     },
     {
-      path: '/contact',
+      path: '/kontak',
       element: <ContactPage />,
     },
     {

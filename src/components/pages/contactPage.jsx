@@ -2,8 +2,12 @@ import NavbarTop from '../Fragments/NavbarTop';
 import Contact from '../Fragments/Contact';
 import Footer from '../Fragments/Footer';
 import ScrollToTop from '../Elements/ScrollToTop';
+import { useEffect } from 'react';
 
 const ContactPage = () => {
+  useEffect(() => {
+    document.title = "Kontak - Jasa Nexaweb";
+  }, []);
   return (
     <>
       <div id='contact'>

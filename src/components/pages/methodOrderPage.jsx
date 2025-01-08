@@ -8,8 +8,13 @@ const listProcessCreatingWebsite = dataProcessCreatingWebsite.data;
 const whatsappLink = 'https://wa.me/628113734445'
 import ScrollToTop from '../Elements/ScrollToTop';
 import figureHowToOrder from '../../assets/figure/order-figure.svg'
+import { useEffect } from 'react';
 
 const MethodOrderPage = () => {
+  useEffect(() => {
+    document.title = "Cara Order - Jasa Nexaweb";
+  }, []);
+
   const fromRight = {
     isView: { opacity: 1, x: 0, transition: { duration: 0.5 } },
     isHidden: { opacity: 0, x: 100 },
