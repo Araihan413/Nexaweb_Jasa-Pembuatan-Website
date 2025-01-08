@@ -107,7 +107,7 @@ const Footer = () => {
           <div className="pb-8">
             <h1 className="font-SubJudul text-xl font-semibold pb-4">Ikuti Sosmed</h1>
             <div className="flex flex-col gap-4">
-              <h3 className="font-semibold">
+              <h1 className="font-semibold">
                 <a target='_blank' href="https://www.linkedin.com/in/ahmad-raihan-08355724b/">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
@@ -116,8 +116,8 @@ const Footer = () => {
                     LinkedIn
                   </div>
                 </a>
-              </h3>
-              <h3 className="font-semibold">
+              </h1>
+              <h1 className="font-semibold">
                 <a target='_blank' href="https://www.instagram.com/ahmd_arrai?igsh=bDh6MHBya2lnZ3M2">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
@@ -126,8 +126,8 @@ const Footer = () => {
                     Instagram
                   </div>
                 </a>
-              </h3>
-              <h3 className="font-semibold">
+              </h1>
+              <h1 className="font-semibold">
                 <a target='_blank' href="https://www.tiktok.com/@mafiismun?_t=ZS-8sriQisk8Wt&_r=1">
                   <div className="font-Paragraf flex gap-2">
                     <p className="text-2xl">
@@ -136,7 +136,7 @@ const Footer = () => {
                     Tiktok
                   </div>
                 </a>
-              </h3>
+              </h1>
             </div>
           </div>
           <div>

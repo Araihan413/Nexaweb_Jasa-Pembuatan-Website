@@ -11,9 +11,9 @@ const Superiority = () => {
   return (
     <>
       <div className='pt-14'>
-        <motion.h3 variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="md:text-center font-judul font-semibold text-4xl mb-10 text-start">
+        <motion.h1 variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className="md:text-center font-judul font-semibold text-4xl mb-10 text-start">
           Keunggulan Menggunakan Jasa Nexaweb
-        </motion.h3>
+        </motion.h1>
         <CardSuperior></CardSuperior>
       </div>
     </>

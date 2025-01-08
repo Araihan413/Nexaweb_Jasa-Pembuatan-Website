@@ -25,7 +25,7 @@ export const LineProcess = (props) => {
         <div className="col-span-1 md:col-span-4 order-last py-5">
 
           <motion.div variants={fromButton} whileInView="isView" initial="isHidden" viewport={{ once: true }} className={`bg-white/20 backdrop-blur rounded-lg md:shadow-box-glass p-4 ${style}`}>
-            <h3 className="font-subJudul text-lg text-center md:text-left">{titleDescription}</h3>
+            <h1 className="font-subJudul text-lg text-center md:text-left">{titleDescription}</h1>
             <p className="font-paragraf text-center md:text-left">{description}</p>
             {children}
           </motion.div>
