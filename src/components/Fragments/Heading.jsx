@@ -32,7 +32,7 @@ const Heading = () => {
                   Bersama{' '}
                 </motion.span>
                 <motion.span variants={varian} initial="hidden" animate="show" transition={{ delay: 1 }}>
-                  Nexweb
+                  Nexaweb
                 </motion.span>
               </div>
             </div>
